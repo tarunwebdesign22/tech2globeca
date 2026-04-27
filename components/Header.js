@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaBars, FaTimes } from "react-icons/fa";
 
 export default function Header() {
@@ -45,13 +46,13 @@ export default function Header() {
 
           {/* Desktop Menu */}
           <nav className="hidden md:flex gap-8 font-medium text-gray-700">
-            <a href="#" className="hover:text-[#c7010c]">HOME</a>
-            <a href="#" className="hover:text-[#c7010c]">ABOUT US</a>
+            <Link href="/" className="hover:text-[#c7010c]">HOME</Link>
+            <Link href="/about-us" className="hover:text-[#c7010c]">ABOUT US</Link>
             <a href="#" className="hover:text-[#c7010c]">SERVICES</a>
             <a href="#" className="hover:text-[#c7010c]">PACKAGES</a>
             <a href="#" className="hover:text-[#c7010c]">LOCATION</a>
             <a href="#" className="hover:text-[#c7010c]">BLOGS</a>
-            <a href="#" className="hover:text-[#c7010c]">CONTACT US</a>
+            <Link href="/contact-us" className="hover:text-[#c7010c]">CONTACT US</Link>
           </nav>
 
           {/* Mobile Toggle */}
@@ -67,13 +68,13 @@ export default function Header() {
         {isOpen && (
           <div className="md:hidden bg-gray-100 px-4 pb-4">
             <nav className="flex flex-col gap-4 font-medium text-gray-700">
-              <a href="#">HOME</a>
-              <a href="#">ABOUT US</a>
-              <a href="#">SERVICES</a>
-              <a href="#">PACKAGES</a>
-              <a href="#">LOCATION</a>
-              <a href="#">BLOGS</a>
-              <a href="#">CONTACT US</a>
+              <Link href="/" onClick={() => setIsOpen(false)}>HOME</Link>
+              <Link href="/about-us" onClick={() => setIsOpen(false)}>ABOUT US</Link>
+              <a href="#" onClick={() => setIsOpen(false)}>SERVICES</a>
+              <a href="#" onClick={() => setIsOpen(false)}>PACKAGES</a>
+              <a href="#" onClick={() => setIsOpen(false)}>LOCATION</a>
+              <a href="#" onClick={() => setIsOpen(false)}>BLOGS</a>
+              <Link href="/contact-us" onClick={() => setIsOpen(false)}>CONTACT US</Link>
             </nav>
           </div>
         )}
