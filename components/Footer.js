@@ -54,9 +54,9 @@ export default function Footer() {
         <div>
           <h4 className="font-bold mb-6 uppercase text-black">Useful Links</h4>
           <ul className="flex flex-col gap-3 text-gray-600 mb-8">
-            <li><a href="#" className="hover:text-[#c7010c] transition-colors">Terms & Conditions</a></li>
-            <li><a href="#" className="hover:text-[#c7010c] transition-colors">Privacy Policy</a></li>
-            <li><a href="#" className="hover:text-[#c7010c] transition-colors">Cookies Policy</a></li>
+            <li><a href="/terms-and-conditions" className="hover:text-[#c7010c] transition-colors">Terms & Conditions</a></li>
+            <li><a href="/privacy-policy" className="hover:text-[#c7010c] transition-colors">Privacy Policy</a></li>
+            <li><a href="/cookies-policy" className="hover:text-[#c7010c] transition-colors">Cookies Policy</a></li>
             <li><a href="#" className="hover:text-[#c7010c] transition-colors">Careers</a></li>
             <li><a href="#" className="hover:text-[#c7010c] transition-colors">Contact Us</a></li>
           </ul>
@@ -123,9 +123,9 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
           <p>© Copyright 2026 by Tech2Globe.ca</p>
           <div className="flex gap-2 mt-2 md:mt-0">
-            <a href="#" className="hover:text-gray-800 transition-colors">Terms and Conditions</a>
+            <a href="/terms-and-conditions" className="hover:text-gray-800 transition-colors">Terms and Conditions</a>
             <span>|</span>
-            <a href="#" className="hover:text-gray-800 transition-colors">Privacy Policy</a>
+            <a href="/privacy-policy" className="hover:text-gray-800 transition-colors">Privacy Policy</a>
           </div>
         </div>
 
