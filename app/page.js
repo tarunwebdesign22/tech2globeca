@@ -12,10 +12,19 @@ import {
   FiSmartphone,
   FiShoppingBag,
   FiPenTool,
-  FiShoppingCart
+  FiShoppingCart,
+  FiCheckCircle,
+  FiBook,
+  FiHome,
+  FiGift,
+  FiBookOpen,
+  FiTool,
+  FiAward,
+  FiUsers,
+  FiRefreshCw
 } from "react-icons/fi";
 
-import { FaSmile, FaLayerGroup, FaGlobe, FaComments } from "react-icons/fa";
+import { FaSmile, FaLayerGroup, FaGlobe, FaComments, FaHandshake, FaSearch, FaShareAlt, FaHeartbeat, FaBus, FaStore, FaPlane, FaUtensils } from "react-icons/fa";
 import Image from "next/image";
 
 export const metadata = {
@@ -245,6 +254,89 @@ const faqsData = [
     question: "I want to outsource to Tech2Globe. What should I do?",
     answer: "Simply contact us through this form with your requirements, and our business development team will get back to you shortly to discuss the next steps and provide a consultation."
   }
+];
+
+const packagesData = [
+  {
+    id: 1,
+    title: "LOCAL SEO PACKAGES",
+    icon: <FaHandshake className="text-white text-4xl" />,
+    link: "#"
+  },
+  {
+    id: 2,
+    title: "BUSINESS SERVICE SEO PACKAGES",
+    icon: <FaSearch className="text-white text-4xl" />,
+    link: "#"
+  },
+  {
+    id: 3,
+    title: "SOCIAL MEDIA MARKETING PACKAGES",
+    icon: <FaShareAlt className="text-white text-4xl" />,
+    link: "#"
+  },
+  {
+    id: 4,
+    title: "PPC PACKAGES",
+    icon: <FiTarget className="text-white text-4xl" />,
+    link: "#"
+  }
+];
+
+const featuredServicesData = [
+  {
+    id: 1,
+    title: "360° Digital Marketing Services",
+    items: [
+      { name: "Hire Digital Marketing Agency Canada", link: "/digital-marketing-agency" },
+      { name: "Best SEO Agency Toronto", link: "/search-engine-optimization" },
+      { name: "PPC Management Services", link: "/ppc-management-services" },
+      { name: "Professional Local Seo Services", link: "/local-seo-services" },
+      { name: "Affordable Social Media Marketing", link: "/social-media-marketing" }
+    ],
+    bgColor: "bg-[#e5e5e5]",
+    textColor: "text-[#222222]",
+    itemTextColor: "text-gray-600"
+  },
+  {
+    id: 2,
+    title: "Amazon Store and Setup Services",
+    items: [
+      { name: "Amazon Marketing Services Toronto", link: "/amazon-marketing-services" },
+      { name: "Amazon Consultancy Services", link: "/amazon-consultancy-services" },
+      { name: "Amazon FBA Consulting Services", link: "/amazon-fba-consulting" },
+      { name: "Hire Amazon SEO Consultant", link: "/hire-amazon-seo-consultant" },
+      { name: "Amazon Advertising Management", link: "/amazon-advertising-management" }
+    ],
+    bgColor: "bg-[#c7010c]",
+    textColor: "text-white",
+    itemTextColor: "text-white/90"
+  },
+  {
+    id: 3,
+    title: "Outsource Data Management Services",
+    items: [
+      { name: "Medical Data Entry Services", link: "/medical-data-entry-services" },
+      { name: "Restaurant Data Menu Entry", link: "/restaurant-data-entry-services" },
+      { name: "Product data entry services Mississauga", link: "/product-data-entry-services" },
+      { name: "Get Professional B2B Lead Generation", link: "/b2b-lead-generation-services" },
+      { name: "Certified Translation Services", link: "/translation-services" }
+    ],
+    bgColor: "bg-[#e5e5e5]",
+    textColor: "text-[#222222]",
+    itemTextColor: "text-gray-600"
+  }
+];
+
+const industriesData = [
+  { id: 1, title: "Financial & Accounting", icon: <FiBook className="text-[#c7010c] text-4xl" /> },
+  { id: 2, title: "Medical & Healthcare", icon: <FaHeartbeat className="text-[#c7010c] text-4xl" /> },
+  { id: 3, title: "Transportation", icon: <FaBus className="text-[#c7010c] text-4xl" /> },
+  { id: 4, title: "Retail Industry", icon: <FaStore className="text-[#c7010c] text-4xl" /> },
+  { id: 5, title: "Real Estate", icon: <FiHome className="text-[#c7010c] text-4xl" /> },
+  { id: 6, title: "Ecommerce", icon: <FiShoppingCart className="text-[#c7010c] text-4xl" /> },
+  { id: 7, title: "Food & Restaurant", icon: <FaUtensils className="text-[#c7010c] text-4xl" /> },
+  { id: 8, title: "Travel & Transportation", icon: <FaPlane className="text-[#c7010c] text-4xl" /> }
 ];
 
 export default function Home() {
@@ -504,7 +596,175 @@ export default function Home() {
       </section>
       <ServiceCards services={servicesData} />
 
+      {/* Packages Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4 max-w-7xl">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+              See Our Packages
+            </h2>
+            <div className="w-16 h-[3px] bg-[#c7010c] mx-auto"></div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {packagesData.map((pkg) => (
+              <div
+                key={pkg.id}
+                className="bg-white border border-gray-100 flex flex-col items-center text-center transition-all hover:shadow-xl duration-300 group"
+              >
+                {/* Icon Container */}
+                <div className="w-full py-12 px-8 flex flex-col items-center bg-[#f9f9f9]">
+                  <div className="w-32 h-32 rounded-full bg-white flex items-center justify-center shadow-sm mb-6 relative">
+                    <div className="w-[4.5rem] h-[4.5rem] rounded-full bg-[#c7010c] flex items-center justify-center shadow-lg transform transition-transform group-hover:scale-110 duration-300">
+                      {pkg.icon}
+                    </div>
+                  </div>
+                  <h3 className="text-[1.1rem] font-bold text-[#222222] uppercase tracking-wide leading-snug">
+                    {pkg.title}
+                  </h3>
+                </div>
+
+                {/* Button Container */}
+                <div className="w-full py-6 px-8 border-t border-gray-100">
+                  <a
+                    href={pkg.link}
+                    className="inline-block bg-[#c7010c] text-white text-sm font-bold px-8 py-3 transition-colors hover:bg-black uppercase tracking-wider"
+                  >
+                    Get A Quote
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Services Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4 max-w-7xl">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-2 text-[#222222]">
+              Featured Services
+            </h2>
+            <div className="w-16 h-[3px] bg-[#c7010c] mx-auto mb-4"></div>
+            <p className="text-[#c7010c] text-lg font-medium">
+              Making Your Data Both Accessible and Actionable
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-0 border border-gray-100">
+            {featuredServicesData.map((service) => (
+              <div
+                key={service.id}
+                className={`${service.bgColor} p-8 md:p-12 flex flex-col h-full transition-all hover:z-10 hover:shadow-2xl duration-300 group`}
+              >
+                <h3 className={`text-2xl md:text-3xl font-bold mb-8 ${service.textColor} leading-tight`}>
+                  {service.title}
+                </h3>
+                <ul className="space-y-4">
+                  {service.items.map((item, idx) => (
+                    <li key={idx} className="flex items-start gap-3 border-b border-black/5 pb-4 last:border-0 group/item">
+                      <FiCheckCircle className={`mt-1 flex-shrink-0 ${service.id === 2 ? 'text-white' : 'text-gray-400'} group-hover/item:text-[#c7010c] ${service.id === 2 ? 'group-hover/item:text-black' : ''} transition-colors`} />
+                      <a
+                        href={item.link}
+                        className={`text-sm md:text-[15px] font-medium ${service.itemTextColor} hover:text-[#c7010c] ${service.id === 2 ? 'hover:text-black' : ''} transition-colors`}
+                      >
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <ExpertiseSection data={expertiseData} />
+
+      {/* Industries Served Section */}
+      <section className="py-20 bg-gray-100">
+        <div className="container mx-auto px-4 max-w-7xl">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+              Industries We Served
+            </h2>
+            <div className="w-16 h-[3px] bg-[#c7010c] mx-auto"></div>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-y-12 gap-x-4">
+            {industriesData.map((item) => (
+              <div key={item.id} className="flex flex-col items-center text-center group">
+                <div className="w-28 h-28 rounded-full bg-white flex items-center justify-center shadow-sm mb-6 transition-transform group-hover:scale-110 duration-300">
+                  {item.icon}
+                </div>
+                <h3 className="text-gray-700 text-sm md:text-base font-medium px-2">
+                  {item.title}
+                </h3>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Section */}
+      <section className="py-16 lg:py-24 bg-white border-t border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+              Why Choose Tech2Globe Canada
+            </h2>
+            <div className="w-16 h-[3px] bg-[#c7010c] mx-auto"></div>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
+            {/* Proficient Team */}
+            <div className="flex flex-col items-center text-center">
+              <div className="w-20 h-20  flex items-center justify-center mb-6 text-[#c7010c] ">
+                <FiUsers size={36} />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Proficient Team</h3>
+              <p className="text-gray-600 text-[15px] leading-relaxed">
+                Experience phenomenal growth in your business with our seasoned experts holding years of experience in the industry.
+              </p>
+            </div>
+
+            {/* Collaborative Process */}
+            <div className="flex flex-col items-center text-center">
+              <div className="w-20 h-20  flex items-center justify-center mb-6 text-[#c7010c] ">
+                <FiRefreshCw size={36} />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Collaborative Process</h3>
+              <p className="text-gray-600 text-[15px] leading-relaxed">
+                As your growth partners, we work in collaboration with your in-house team and offer full transparency with start-to-end tracking.
+              </p>
+            </div>
+
+            {/* Industry Experience */}
+            <div className="flex flex-col items-center text-center">
+              <div className="w-20 h-20  flex items-center justify-center mb-6 text-[#c7010c] ">
+                <FiAward size={36} />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Industry Experience</h3>
+              <p className="text-gray-600 text-[15px] leading-relaxed">
+                We have been in the industry for more than a decade now, which makes us a reliable partner for you with strong business acumen.
+              </p>
+            </div>
+
+            {/* Technical Assistance */}
+            <div className="flex flex-col items-center text-center">
+              <div className="w-20 h-20  flex items-center justify-center mb-6 text-[#c7010c] ">
+                <FiTool size={36} />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Technical Assistance</h3>
+              <p className="text-gray-600 text-[15px] leading-relaxed">
+                We offer value-driven and straightforward assistance with a quick problem-solving attitude and efficient troubleshooting.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
 
       <FaqContact faqs={faqsData} />
       <CTA />
