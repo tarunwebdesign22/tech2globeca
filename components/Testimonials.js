@@ -30,7 +30,7 @@ export default function Testimonials({
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
               {title}
             </h2>
-            <p className="text-[#c7010c] font-bold text-lg md:text-xl tracking-[0.2em] mb-8">
+            <p className="text-[#c7010c] font-bold text-lg md:text-xl mb-8">
               {subtitle}
             </p>
             <div className="w-24 h-1.5 bg-[#c7010c] rounded-full mb-8"></div>

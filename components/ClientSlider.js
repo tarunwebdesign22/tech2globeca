@@ -48,18 +48,18 @@ export default function ClientSlider({ clients = [], title = "", subtitle = "" }
                 slidesPerView: 4,
               },
               1024: {
-                slidesPerView: 5,
+                slidesPerView: 4,
               },
             }}
             className="client-swiper !ease-linear"
           >
             {clients.map((client) => (
               <SwiperSlide key={client.id} className="flex items-center justify-center">
-                <div className="w-40 h-20 flex items-center justify-center p-2 transition-transform duration-300 hover:scale-110 cursor-pointer">
+                <div className="w-50 h-30 flex items-center justify-center p-2 transition-transform duration-300 hover:scale-110 cursor-pointer">
                   <img
                     src={client.logo}
                     alt={client.name}
-                    className="max-w-full max-h-full object-contain filter opacity-100  transition-all duration-300"
+                    className="max-w-full max-h-full object-contain filter opacity-100  transition-all duration-300 "
                   />
                 </div>
               </SwiperSlide>

@@ -7,12 +7,63 @@ import Industries from "@/components/Industries";
 import Testimonials from "@/components/Testimonials";
 import ClientSlider from "@/components/ClientSlider";
 import AvailableLocations from "@/components/AvailableLocations";
+import {
+  FiMonitor,
+  FiTool,
+  FiMessageCircle,
+  FiUsers,
+  FiMegaphone,
+  FiDollarSign,
+  FiBriefcase,
+  FiBarChart2,
+  FiTrendingUp
+} from "react-icons/fi";
+
+import LocationContact from "@/components/LocationContact";
+import ServiceCards from "@/components/ServiceCards";
 
 export const metadata = {
   title: "Digital Marketing Agency in Vancouver | Tech2Globe Canada",
-  description: "Looking for a top-rated digital marketing agency in Vancouver? Tech2Globe Canada offers expert SEO, PPC, and social media marketing services to grow your business.",
-  keywords: ["digital marketing agency vancouver", "seo services vancouver", "ppc management vancouver", "social media marketing vancouver"],
+  description:
+    "Looking for a top-rated digital marketing agency in Vancouver? Tech2Globe Canada offers expert SEO, PPC, and social media marketing services to grow your business.",
+  keywords: [
+    "digital marketing agency vancouver",
+    "seo services vancouver",
+    "ppc management vancouver",
+    "social media marketing vancouver"
+  ],
 };
+
+const servicesData = [
+  {
+    id: 1,
+    title: "Larger Audience",
+    description:
+      "Because of the internet, businesses can now reach customers all over the world...",
+    icon: <FiMessageCircle className="text-white text-3xl" />
+  },
+  {
+    id: 2,
+    title: "Effectiveness Of Campaigns",
+    description:
+      "The amount of clicks, views, and click-throughs yielded by a digital marketing campaign can be tracked...",
+    icon: <FiBarChart2 className="text-white text-3xl" />
+  },
+  {
+    id: 3,
+    title: "Affordable Marketing",
+    description:
+      "Traditional marketing techniques can be quite costly...",
+    icon: <FiTrendingUp className="text-white text-3xl" />
+  },
+  {
+    id: 4,
+    title: "Beneficial Marketing Services",
+    description:
+      "A strong internet presence is critical...",
+    icon: <FiBriefcase className="text-white text-3xl" />
+  },
+];
 
 const clientsData = [
   { id: 1, name: 'Abrams', logo: 'images/clients/abrams.png' },
@@ -25,6 +76,23 @@ const clientsData = [
   { id: 8, name: 'GBS', logo: 'images/clients/gbs-logo.png' },
   { id: 9, name: 'HP', logo: 'images/clients/hp.png' },
   { id: 10, name: 'Wellist', logo: 'images/clients/wellist.png' },
+];
+
+const clientsData2 = [
+  { id: 1, name: 'Yelp', logo: 'images/clients/yelp.png' },
+  { id: 2, name: 'Bing', logo: 'images/clients/bing.png' },
+  { id: 3, name: 'Hotfrog', logo: 'images/clients/hotfrog.png' },
+  { id: 4, name: 'Goodfirm', logo: 'images/clients/goodfirm.png' },
+];
+
+const clientsData3 = [
+  { id: 1, name: 'Good Firm', logo: 'images/clients/good-firm.png' },
+  { id: 2, name: 'Clutch', logo: 'images/clients/clutch-2021.png' },
+  { id: 3, name: 'Clutch', logo: 'images/clients/clutch-2021-1.png' },
+  { id: 4, name: 'Clutch', logo: 'images/clients/clutch-2021-2.png' },
+  { id: 5, name: 'Trustpilot', logo: 'images/clients/trust-pilot.png' },
+  { id: 6, name: 'Ypca', logo: 'images/clients/ypca.png' },
+  { id: 7, name: 'Extract', logo: 'images/clients/extract.png' },
 ];
 
 const faqsData = [
@@ -70,6 +138,8 @@ const testimonialsData = [
   }
 ];
 
+const vancouverMapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887...YOUR_MAP_URL...&output=embed";
+
 export default function DigitalMarketingVancouver() {
   const breadcrumbs = [
     { label: "Home", href: "/" },
@@ -85,6 +155,8 @@ export default function DigitalMarketingVancouver() {
         title="Digital Marketing Vancouver"
         breadcrumbs={breadcrumbs}
       />
+
+      <ClientSlider title="Awards & Recognition" clients={clientsData3} />
 
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -112,10 +184,75 @@ export default function DigitalMarketingVancouver() {
         </div>
       </section>
 
+      <LocationContact mapSrc={vancouverMapUrl} />
+
       <AvailableLocations title="Other Locations We Serve" />
 
+      <section className="pt-[3.2rem] bg-white">
+        <div className="container mx-auto px-4 max-w-7xl">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+              Why We Need Digital Marketing in Vancouver, Canada
+            </h2>
+            <p className="text-gray-600 mb-4 leading-relaxed">Digital Marketing Vancouver has evolved into an important component of any company's overall marketing strategy. It enables businesses to reach a larger audience, save money, track and measure campaign success, improve their online presence, and keep up with the latest trends and technologies. Businesses must have a strong online presence and use digital marketing services to reach and engage with customers in today's digital age. Here are some of the reasons why every industry should use digital marketing services:</p>
+            <div className="w-16 h-[3px] bg-[#c7010c] mx-auto mb-6"></div>
+          </div>
+        </div>
+      </section>
+      <ServiceCards services={servicesData} />
+
       <Industries />
+
       <ClientSlider title="Whom We’ve Partnered With" clients={clientsData} />
+
+      {/* Tools and Technologies Section */}
+      <section className="bg-white py-[3.2rem] lg:py-[4.8rem]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+              Tools And Technologies We Make Use Of
+            </h2>
+            <div className="w-24 h-[2px] bg-[#c7010c] mx-auto mb-4"></div>
+            <p className="text-[#c7010c] text-lg sm:text-xl font-medium">
+              Empowering your brand in a digital world
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+            {/* Card 1 */}
+            <div className="bg-[#fafafa] py-8 px-6 flex flex-col items-center text-center transition-all hover:shadow-md">
+              <div className="mb-6 text-[#c7010c]">
+                <FiMonitor size={56} strokeWidth={1.5} />
+              </div>
+              <h3 className="text-xl font-medium text-[#222222]">
+                Increasing Website Traffic
+              </h3>
+            </div>
+
+            {/* Card 2 */}
+            <div className="bg-[#fafafa] py-8 px-6 flex flex-col items-center text-center transition-all hover:shadow-md">
+              <div className="mb-6 text-[#c7010c]">
+                <FiTool size={56} strokeWidth={1.5} />
+              </div>
+              <h3 className="text-xl font-medium text-[#222222]">
+                Advanced Analytics Tools
+              </h3>
+            </div>
+
+            {/* Card 3 */}
+            <div className="bg-[#fafafa] py-8 px-6 flex flex-col items-center text-center transition-all hover:shadow-md">
+              <div className="mb-6 text-[#c7010c]">
+                <FiMessageCircle size={56} strokeWidth={1.5} />
+              </div>
+              <h3 className="text-xl font-medium text-[#222222]">
+                24/7 Customer Support
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <ClientSlider title="List Your Brand On Popular Platforms" clients={clientsData2} />
 
       <Testimonials testimonials={testimonialsData} />
 

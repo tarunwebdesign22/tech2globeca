@@ -6,7 +6,6 @@ import ClientSlider from "@/components/ClientSlider";
 import ServiceCards from "@/components/ServiceCards";
 import ExpertiseSection from "@/components/ExpertiseSection";
 import Industries from "@/components/Industries";
-import AvailableLocations from "@/components/AvailableLocations";
 import { FiArrowUpRight, FiTarget } from 'react-icons/fi';
 import {
   FiDatabase,
@@ -738,7 +737,6 @@ export default function Home() {
       <ExpertiseSection data={expertiseData} />
 
       <Industries />
-      <AvailableLocations />
 
       {/* Why Choose Section */}
       <section className="py-[3.2rem] lg:py-[4.8rem] bg-white border-t border-b border-gray-100">
