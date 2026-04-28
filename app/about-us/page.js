@@ -23,7 +23,7 @@ export default function AboutUs() {
       <PageHeader title="About Us" breadcrumbs={breadcrumbs} />
 
       {/* Section 1: About Tech2Globe Canada */}
-      <section className="py-16 lg:py-24 bg-white">
+      <section className="py-[3.2rem] lg:py-[4.8rem] bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Image */}
@@ -68,7 +68,7 @@ export default function AboutUs() {
       </section>
 
       {/* Section 2: Mission & Vision */}
-      <section className="py-16 lg:py-24 bg-gray-50 border-t border-b border-gray-100">
+      <section className="py-[3.2rem] lg:py-[4.8rem] bg-gray-50 border-t border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row gap-12 md:gap-0 relative">
             {/* Mission */}
@@ -100,7 +100,7 @@ export default function AboutUs() {
       </section>
 
       {/* Section 3: Recognition */}
-      <section className="py-16 lg:py-20 bg-white">
+      <section className="py-[3.2rem] lg:py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 inline-block relative pb-2 border-b-4 border-[#c7010c]">
@@ -126,7 +126,7 @@ export default function AboutUs() {
       </section>
 
       {/* Section 4: Services With Us */}
-      <section className="py-16 lg:py-24 bg-gray-50 border-t border-gray-100">
+      <section className="py-[3.2rem] lg:py-[4.8rem] bg-gray-50 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 inline-block relative pb-2 border-b-4 border-[#c7010c]">
@@ -158,7 +158,7 @@ export default function AboutUs() {
       </section>
 
       {/* Section 5: Our Business Approach */}
-      <section className="py-16 lg:py-24 bg-white">
+      <section className="py-[3.2rem] lg:py-[4.8rem] bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl font-bold text-gray-900 inline-block relative pb-2 border-b-4 border-[#c7010c] mb-6">
@@ -196,7 +196,7 @@ export default function AboutUs() {
       </section>
 
       {/* Section 6: Why Choose Tech2Globe */}
-      <section className="py-16 lg:py-24 bg-[#1c1c1c] text-white">
+      <section className="py-[3.2rem] lg:py-[4.8rem] bg-[#1c1c1c] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-start">
             <div className="lg:w-1/3">

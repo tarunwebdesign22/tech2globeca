@@ -4,7 +4,7 @@ import React from 'react';
 
 const ServiceCards = ({ services = [] }) => {
   return (
-    <section className="pt-0 pb-16 bg-white">
+    <section className="pt-0 pb-[3.2rem] bg-white">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service) => (

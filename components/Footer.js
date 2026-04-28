@@ -13,7 +13,7 @@ export default function Footer() {
 
   return (
     <footer className="w-full bg-white text-gray-800 text-sm">
-      <div className="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto px-4 py-[3.2rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Column 1: About & Social */}
         <div className="flex flex-col gap-6">
           <Image
@@ -57,7 +57,7 @@ export default function Footer() {
             <li><a href="/terms-and-conditions" className="hover:text-[#c7010c] transition-colors">Terms & Conditions</a></li>
             <li><a href="/privacy-policy" className="hover:text-[#c7010c] transition-colors">Privacy Policy</a></li>
             <li><a href="/cookies-policy" className="hover:text-[#c7010c] transition-colors">Cookies Policy</a></li>
-            <li><a href="#" className="hover:text-[#c7010c] transition-colors">Careers</a></li>
+            <li><a href="https://tech2globe.com/career" target="_blank" className="hover:text-[#c7010c] transition-colors">Careers</a></li>
             <li><a href="#" className="hover:text-[#c7010c] transition-colors">Contact Us</a></li>
           </ul>
 

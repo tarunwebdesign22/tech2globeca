@@ -1,6 +1,6 @@
 export default function CTA() {
   return (
-    <section className="bg-[#c7010c] py-12">
+    <section className="bg-[#c7010c] py-[2.4rem]">
       <div className="max-w-7xl mx-auto px-4 flex flex-col items-center text-center">
         <h2 className="text-white text-3xl md:text-4xl font-semibold mb-8">
           Discover How We Can Help Your Business Grow

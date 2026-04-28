@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 
 const ExpertiseSection = ({ data }) => {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-[3.2rem] bg-white">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">

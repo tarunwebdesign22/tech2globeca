@@ -21,7 +21,10 @@ import {
   FiTool,
   FiAward,
   FiUsers,
-  FiRefreshCw
+  FiRefreshCw,
+  FiSearch,
+  FiPhone,
+  FiMail
 } from "react-icons/fi";
 
 import { FaSmile, FaLayerGroup, FaGlobe, FaComments, FaHandshake, FaSearch, FaShareAlt, FaHeartbeat, FaBus, FaStore, FaPlane, FaUtensils } from "react-icons/fa";
@@ -339,6 +342,66 @@ const industriesData = [
   { id: 8, title: "Travel & Transportation", icon: <FaPlane className="text-[#c7010c] text-4xl" /> }
 ];
 
+const insightsData = [
+  {
+    id: 1,
+    title: "6 Advantages of Social Media Marketing Services",
+    excerpt: "Remember when everyone believed social media was a passing fad? Its strength has become evident, and it is just growing, with no end in sight...",
+    image: "/images/blogs/6-Reasons-blog.png",
+    link: "/blog/6-advantages-of-social-media-marketing-services"
+  },
+  {
+    id: 2,
+    title: "Top 5 Website Development Hacks You Need To Know",
+    excerpt: "Despite the fact that people spend a lot of time on their phones, web pages are still relevant! On the contrary, new CSS specifications and UX trends have...",
+    image: "/images/blogs/10-VS-4.jpg",
+    link: "/blog/top-5-website-development-hacks"
+  },
+  {
+    id: 3,
+    title: "Why Should I Hire A Digital Marketing Agency",
+    excerpt: "Are you truly getting the most out of your marketing efforts in this post-pandemic era? A rapidly transforming digital era has begun, and it necessitates a shifting manner...",
+    image: "/images/blogs/10-VS-2.jpg",
+    link: "/blog/why-should-i-hire-a-digital-marketing-agency"
+  }
+];
+
+const caseStudiesData = [
+  {
+    id: 1,
+    title: "SEO SERVICE RESULTS",
+    icon: <FiSearch size={64} className="text-black" />,
+    stats: [
+      { label: "Organic Traffic", value: "+700%" },
+      { label: "Online Leads", value: "+430%" }
+    ],
+    description: "Tech2Globe used SEO to increase the overall traffic to our Aquatech project website by +700% and along with the new CRO (Conversion rate optimization) focused Website were able to increase online leads by over +430%.",
+    link: "/case-study/seo-service-results"
+  },
+  {
+    id: 2,
+    title: "DATA MANAGEMENT SERVICES",
+    icon: <FiDatabase size={64} className="text-black" />,
+    stats: [
+      { label: "Industries", value: "+30" },
+      { label: "Companies", value: "+500" }
+    ],
+    description: "Tech2Globe's data management experts can help you with our data entry services and lower your burden. They will scan and categorize the originals in order to convert physical documents into digital files.",
+    link: "/case-study/data-management-services"
+  },
+  {
+    id: 3,
+    title: "ECOMMERCE MARKET PLACES",
+    icon: <FiShoppingCart size={64} className="text-black" />,
+    stats: [
+      { label: "Traffic", value: "+780%" },
+      { label: "Conversion", value: "+660%" }
+    ],
+    description: "Built up the goodwill on the online marketplace within the targeted date and client appreciated our efforts and a committed team with expertise were necessary to accomplish all tasks within TAT & deliver the assignment.",
+    link: "/case-study/ecommerce-market-places"
+  }
+];
+
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col bg-white dark:bg-zinc-950">
@@ -412,7 +475,7 @@ export default function Home() {
 
       <section className="bg-[#c7010c] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 
-                  py-6 sm:py-8 md:py-8 lg:py-8">
+          py-[1.2rem] sm:py-[1.6rem] md:py-[1.6rem] lg:py-[1.6rem]">
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 
                     gap-6 md:gap-8">
@@ -448,7 +511,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-gray-100 py-10 sm:py-12 md:py-16">
+      <section className="bg-gray-100 py-8 sm:py-[2.4rem] md:py-[3.2rem]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
           {/* Heading */}
@@ -489,7 +552,7 @@ export default function Home() {
 
       <section className="bg-[#c7010c]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 
-                  py-6 sm:py-8 md:py-10">
+                  py-[1.2rem] sm:py-[1.6rem] md:py-8">
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 
@@ -526,7 +589,7 @@ export default function Home() {
 
       <section className="bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 
-                  py-6 sm:py-8 md:py-10">
+                  py-[1.2rem] sm:py-[1.6rem] md:py-8">
 
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
@@ -584,7 +647,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="pt-16 bg-white">
+      <section className="pt-[3.2rem] bg-white">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
@@ -597,7 +660,7 @@ export default function Home() {
       <ServiceCards services={servicesData} />
 
       {/* Packages Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-[3.2rem] bg-gray-50">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
@@ -640,7 +703,7 @@ export default function Home() {
       </section>
 
       {/* Featured Services Section */}
-      <section className="py-16 bg-white">
+      <section className="py-[3.2rem] bg-white">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-2 text-[#222222]">
@@ -683,7 +746,7 @@ export default function Home() {
       <ExpertiseSection data={expertiseData} />
 
       {/* Industries Served Section */}
-      <section className="py-20 bg-gray-100">
+      <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
@@ -708,7 +771,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Section */}
-      <section className="py-16 lg:py-24 bg-white border-t border-b border-gray-100">
+      <section className="py-[3.2rem] lg:py-[4.8rem] bg-white border-t border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
@@ -760,6 +823,184 @@ export default function Home() {
               <p className="text-gray-600 text-[15px] leading-relaxed">
                 We offer value-driven and straightforward assistance with a quick problem-solving attitude and efficient troubleshooting.
               </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* Get Started CTA Section */}
+      <section className="bg-[#c7010c] py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-white text-3xl md:text-4xl font-bold mb-6">
+            Ready to Get Started?
+          </h2>
+          <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 text-white mb-8">
+            <div className="flex items-center gap-2">
+              <FiPhone className="text-xl" />
+              <span className="text-sm md:text-base font-medium">Call us Today for a Free Consultation:</span>
+              <a href="tel:+17783829628" className="text-sm md:text-base font-bold hover:underline">
+                +1-778-382-9628
+              </a>
+            </div>
+            <div className="flex items-center gap-2">
+              <FiMail className="text-xl" />
+              <a href="mailto:info@tech2globe.ca" className="text-sm md:text-base font-bold hover:underline">
+                info@tech2globe.ca
+              </a>
+            </div>
+          </div>
+          <a
+            href="/contact-us"
+            className="inline-flex items-center gap-3 border-2 border-white text-white px-8 py-3 font-bold uppercase tracking-widest hover:bg-white hover:text-[#c7010c] transition-all duration-300"
+          >
+            Let&apos;s Talk
+            <FaComments className="text-xl" />
+          </a>
+        </div>
+      </section>
+
+      {/* Case Studies Section */}
+      <section className="py-16 lg:py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+              Case Studies
+            </h2>
+            <div className="w-16 h-[3px] bg-[#c7010c] mx-auto mb-6"></div>
+            <p className="text-gray-600 max-w-2xl mx-auto text-[15px] leading-relaxed">
+              At Tech2Globe we believe not on instincts but on real-time output,
+              so our customers trust us and we have a huge range of our case studies to display.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {caseStudiesData.map((study) => (
+              <div key={study.id} className="border border-gray-100 flex flex-col h-full bg-white transition-all hover:shadow-lg">
+                {/* Icon Area */}
+                <div className="bg-[#f2f2f2] py-12 flex items-center justify-center">
+                  {study.icon}
+                </div>
+
+                {/* Title Bar */}
+                <div className="bg-[#c7010c] py-4 px-6 text-center">
+                  <h3 className="text-white font-bold text-lg uppercase tracking-wider">
+                    {study.title}
+                  </h3>
+                </div>
+
+                {/* Stats & Description */}
+                <div className="p-8 flex-grow flex flex-col">
+                  <div className="grid grid-cols-2 gap-4 mb-6 border-b border-gray-100 pb-6">
+                    {study.stats.map((stat, idx) => (
+                      <div key={idx} className="text-center">
+                        <div className="text-[#c7010c] text-3xl font-bold mb-1">
+                          {stat.value}
+                        </div>
+                        <div className="text-gray-500 text-xs uppercase tracking-wide">
+                          {stat.label}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                  <p className="text-gray-600 text-sm leading-relaxed mb-8">
+                    {study.description}
+                  </p>
+
+                  <div className="mt-auto">
+                    <a
+                      href={study.link}
+                      className="text-gray-900 text-xs font-bold uppercase tracking-widest flex items-center hover:text-[#c7010c] transition-colors group"
+                    >
+                      Read More About Case Study
+                      <span className="ml-2 text-[#c7010c] transform transition-transform group-hover:translate-x-1">→</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Insights and News Section */}
+      <section className="py-16 lg:py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+              Insights And News
+            </h2>
+            <div className="w-16 h-[3px] bg-[#c7010c] mx-auto"></div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {insightsData.map((post) => (
+              <div key={post.id} className="bg-white group transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                {/* Image Wrapper */}
+                <div className="relative h-54 overflow-hidden">
+                  <Image
+                    src={post.image}
+                    alt={post.title}
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300"></div>
+                </div>
+
+                {/* Content */}
+                <div className="p-8 flex flex-col flex-grow relative">
+                  <h3 className="text-xl font-bold text-gray-900 mb-4 line-clamp-2 min-h-[3.5rem]">
+                    {post.title}
+                  </h3>
+                  <p className="text-gray-600 text-[15px] leading-relaxed mb-8 line-clamp-3">
+                    {post.excerpt}
+                  </p>
+
+                  {/* Circular Link Button with Arrow */}
+                  <div className="mt-auto pt-6 border-t border-gray-100 flex justify-end">
+                    <a
+                      href={post.link}
+                      className="w-12 h-12 rounded-full border border-[#c7010c] text-[#c7010c] flex items-center justify-center transition-all duration-300 hover:bg-[#c7010c] hover:text-white group/btn"
+                    >
+                      <FiArrowUpRight size={20} className="transform transition-transform group-hover/btn:scale-110" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Credentials & Partnerships */}
+      <section className="py-16 lg:py-20 bg-white border-t border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+              Credentials & Partnerships
+            </h2>
+            <div className="w-16 h-[3px] bg-[#c7010c] mx-auto"></div>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+            {/* Proficient Team */}
+            <div className="flex flex-col items-center text-center">
+              <Image src="/images/Feature-1.png" alt="Trust Pilot" width={343} height={384} />
+            </div>
+
+            <div className="flex flex-col items-center text-center">
+              <iframe
+                src="https://widget.clutch.co/widgets/get/3?ref_domain=www.tech2globe.ca&uid=561082&rel_nofollow=true&width=100%25&ref_path=/"
+                className="w-full border-0"
+                style={{ height: "384px", width: "100%" }}
+                loading="lazy"
+                title="Clutch Reviews"
+              />
+            </div>
+
+            {/* Industry Experience */}
+            <div className="flex flex-col items-center text-center">
+              <Image src="/images/Feature-3.png" alt="Trust Pilot" width={343} height={384} />
             </div>
 
           </div>
