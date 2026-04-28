@@ -8,10 +8,23 @@ import 'swiper/css';
 
 
 
-export default function ClientSlider({ clients = [] }) {
+export default function ClientSlider({ clients = [], title = "", subtitle = "" }) {
   return (
-    <section className="py-8 bg-gray-50 dark:bg-zinc-900 border-y border-gray-200 dark:border-zinc-800 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-4 lg:px-4">
+    <section className="py-12 bg-gray-50 dark:bg-zinc-900 border-y border-gray-200 dark:border-zinc-800 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {title && (
+          <div className="text-center mb-10">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+              {title}
+            </h2>
+            <div className="w-16 h-[3px] bg-[#c7010c] mx-auto mb-4"></div>
+            {subtitle && (
+              <p className="text-gray-600 dark:text-gray-400 text-lg max-w-2xl mx-auto">
+                {subtitle}
+              </p>
+            )}
+          </div>
+        )}
         <div className="relative">
           {/* Fading edges */}
           <div className="absolute left-0 top-0 w-16 h-full bg-gradient-to-r from-gray-50 dark:from-zinc-900 to-transparent z-10 pointer-events-none"></div>
