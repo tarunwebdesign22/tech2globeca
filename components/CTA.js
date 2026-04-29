@@ -8,15 +8,15 @@ export default function CTA() {
         <div className="flex flex-col sm:flex-row gap-4">
           <a
             href="mailto:info@tech2globe.ca"
-            className="px-8 py-3 rounded-full border-2 border-white text-white font-medium hover:bg-white hover:text-[#c7010c] transition-colors"
+            className="px-8 py-3 border-2 border-white text-white font-medium hover:bg-white hover:text-[#c7010c] transition-colors"
           >
             SEND A MAIL
           </a>
           <a
-            href="tel:+1-778-382-9628"
-            className="px-8 py-3 rounded-full bg-white text-gray-900 font-medium hover:bg-gray-100 transition-colors"
+            href="tel:+1-516-858-5840"
+            className="px-8 py-3 border-2 border-white text-white font-medium hover:bg-white hover:text-[#c7010c] transition-colors"
           >
-            CALL US
+            GIVE A CALL
           </a>
         </div>
       </div>

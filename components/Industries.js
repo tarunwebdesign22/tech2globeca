@@ -12,7 +12,11 @@ const defaultIndustries = [
   { id: 8, title: "Travel & Transportation", icon: <FaPlane className="text-[#c7010c] text-4xl" /> }
 ];
 
-export default function Industries({ industries = defaultIndustries, title = "Industries We Served" }) {
+export default function Industries({ 
+  industries = defaultIndustries, 
+  title = "Industries We Served",
+  subtitle
+}) {
   return (
     <section className="py-16 bg-gray-100">
       <div className="container mx-auto px-4 max-w-7xl">
@@ -20,6 +24,11 @@ export default function Industries({ industries = defaultIndustries, title = "In
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
             {title}
           </h2>
+          {subtitle && (
+            <p className="text-[#c7010c] text-base md:text-lg font-medium mb-4 max-w-3xl mx-auto">
+              {subtitle}
+            </p>
+          )}
           <div className="w-16 h-[3px] bg-[#c7010c] mx-auto"></div>
         </div>
 

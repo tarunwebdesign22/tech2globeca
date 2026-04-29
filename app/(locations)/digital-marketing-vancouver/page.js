@@ -39,28 +39,28 @@ const servicesData = [
     id: 1,
     title: "Larger Audience",
     description:
-      "Because of the internet, businesses can now reach customers all over the world...",
+      "Because of the internet, businesses can now reach customers all over the world, regardless of their location. This is especially true for businesses that do business on a global scale or have a large customer base. SEO, social media marketing, and PPC advertising are examples of digital marketing Vancouver services that can assist businesses in reaching out to specific audiences and expanding their customer base.",
     icon: <FiMessageCircle className="text-white text-3xl" />
   },
   {
     id: 2,
     title: "Effectiveness Of Campaigns",
     description:
-      "The amount of clicks, views, and click-throughs yielded by a digital marketing campaign can be tracked...",
+      "The amount of clicks, views, and click - throughs yielded by a digital marketing campaign can be tracked. Businesses can use the Digital Marketing Agency in Vancouver to determine which campaigns are likely to succeed and which need to be enhanced. By monitoring the success of their campaigns, businesses can make data-driven determinations about their marketing strategy and adjust it consequently to optimise their results.",
     icon: <FiBarChart2 className="text-white text-3xl" />
   },
   {
     id: 3,
     title: "Affordable Marketing",
     description:
-      "Traditional marketing techniques can be quite costly...",
+      "Traditional marketing techniques can be quite costly. Digital marketing, on the other hand, is frequently significantly less costly. This is especially true for small and medium-sized businesses that may not have the financial resources for large-scale advertising. Email marketing and social media marketing are examples of digital marketing services that can assist businesses in developing.",
     icon: <FiTrendingUp className="text-white text-3xl" />
   },
   {
     id: 4,
     title: "Beneficial Marketing Services",
     description:
-      "A strong internet presence is critical...",
+      "A strong internet persona is critical for companies of all sizes in today's digital age. Website design and development, search engine optimization, and social media marketing are examples of online marketing Vancouver services that can assist businesses in creating and managing a website, social media accounts, and other web assets which will help them improve their digital presence.",
     icon: <FiBriefcase className="text-white text-3xl" />
   },
 ];
@@ -138,7 +138,7 @@ const testimonialsData = [
   }
 ];
 
-const vancouverMapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887...YOUR_MAP_URL...&output=embed";
+const vancouverMapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167660.07953085544!2d-123.22411285820309!3d49.257577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2sVancouver%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1714300000000!5m2!1sen!2sus";
 
 export default function DigitalMarketingVancouver() {
   const breadcrumbs = [
@@ -199,7 +199,63 @@ export default function DigitalMarketingVancouver() {
           </div>
         </div>
       </section>
-      <ServiceCards services={servicesData} />
+      <ServiceCards services={servicesData} columns={2} />
+
+      {/* CTA Banner */}
+      <section className="bg-[#c7010c] py-[2.8rem]">
+        <div className="max-w-7xl mx-auto px-4 flex flex-col items-center text-center gap-4">
+          <h2 className="text-white text-3xl md:text-4xl font-bold">
+            Let&apos;s Talk About Your Project
+          </h2>
+          <p className="text-white text-base md:text-lg font-light">
+            Feel Free To Connect With Us
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 mt-2">
+            <a
+              href="mailto:info@tech2globe.ca"
+              className="px-8 py-3 border-2 border-white text-white font-semibold tracking-wide hover:bg-white hover:text-[#c7010c] transition-colors duration-200"
+            >
+              SEND A MAIL
+            </a>
+            <a
+              href="tel:+1-778-382-9628"
+              className="px-8 py-3 border-2 border-white text-white font-semibold tracking-wide hover:bg-white hover:text-[#c7010c] transition-colors duration-200"
+            >
+              GIVE A CALL
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Best Digital Marketing Services Section */}
+      <section className="bg-[#f0f0f0] py-[3.2rem]">
+        <div className="container mx-auto px-4 max-w-7xl">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+              Best Digital Marketing Services Vancouver, Canada
+            </h2>
+            <p className="text-[#c7010c] text-lg font-medium leading-relaxed max-w-2xl mx-auto">
+              Our digital marketing agency provides a variety of IT services to assist your business in growing!
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-white p-8 flex flex-col justify-between">
+              <p className="text-[#444444] text-[15px] leading-[1.8]">
+                Statistics show that 88 percent of people who look for local businesses online will call or visit a store within 24 hours. You can entice your ideal customers and generate more leads and revenue with our Digital Marketing Agency in Vancouver. Our online marketing Vancouver company helps to keep your name, address, and phone number (NAP) consistent, strengthens your location pages, and builds local links. We also use social media to communicate with your target audiences. We provide a solid online foundation by giving accurate technical SEO and internet marketing services.
+              </p>
+              <div className="w-16 h-[3px] bg-[#c7010c] mt-6"></div>
+            </div>
+
+            <div className="bg-white p-8 flex flex-col justify-between">
+              <p className="text-[#444444] text-[15px] leading-[1.8]">
+                Our online marketing Vancouver SEO specialists examine crawl error reports, HTTPS status codes, site performance, audit redirects, and delete duplicate content. As a result, we improve your website's crawlability and indexability. We may also add structured data markup to your website and assist with site migration, depending on your needs and targets. Tech2Globe increases consumer trust by acquiring a steady stream of traffic from authoritative websites. To get your content on the page in front of influential people, we use sponsored ads, sponsorships, and collaborations.
+              </p>
+              <div className="w-16 h-[3px] bg-[#c7010c] mt-6"></div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <Industries />
 
