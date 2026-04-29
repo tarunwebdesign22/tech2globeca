@@ -132,7 +132,7 @@ const torontoMapUrl =
 
 export default function DigitalMarketingToronto() {
   return (
-    <main className="min-h-screen flex flex-col bg-white">
+    <main className="min-h-screen flex flex-col bg-white overflow-hidden">
       <Header />
 
       <PageHeader
@@ -145,7 +145,7 @@ export default function DigitalMarketingToronto() {
 
       <ClientSlider title="Awards & Recognition" clients={clientsData3} />
 
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="items-center">
             <div>
@@ -175,7 +175,7 @@ export default function DigitalMarketingToronto() {
       <AvailableLocations title="Our Digital Marketing Location" />
 
       {/* CTA Banner */}
-      <section className="bg-[#c7010c] py-[2.8rem]">
+      <section className="bg-[#c7010c] py-[2.8rem] overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 flex flex-col items-center text-center gap-4">
           <h2 className="text-white text-3xl md:text-4xl font-bold">
             Let&apos;s Talk About Your Project
@@ -200,7 +200,7 @@ export default function DigitalMarketingToronto() {
         </div>
       </section>
 
-      <section className="bg-[#f0f0f0] py-[3.2rem]">
+      <section className="bg-[#f0f0f0] py-[3.2rem] overflow-hidden">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="text-center mb-10">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
@@ -237,7 +237,7 @@ export default function DigitalMarketingToronto() {
       <ClientSlider title="Some Of The Brands We Work With" clients={clientsData} />
 
       {/* Tools and Technologies Section */}
-      <section className="bg-white py-[3.2rem] lg:py-[4.8rem]">
+      <section className="bg-white py-[3.2rem] lg:py-[4.8rem] overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">

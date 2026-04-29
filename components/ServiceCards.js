@@ -9,7 +9,7 @@ const colClasses = {
 
 const ServiceCards = ({ services = [], columns = 3 }) => {
   return (
-    <section className="pt-0 pb-[3.2rem] bg-white">
+    <section className="pt-0 pb-[3.2rem] bg-white overflow-hidden">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className={`grid ${colClasses[columns] ?? colClasses[3]} gap-6`}>
           {services.map((service) => (

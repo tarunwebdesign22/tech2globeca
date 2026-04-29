@@ -16,7 +16,7 @@ export default function Testimonials({
   if (!testimonials || testimonials.length === 0) return null;
 
   return (
-    <section className="py-14 bg-[#f9fafb] relative">
+    <section className="py-14 bg-[#f9fafb] relative overflow-hidden">
       {/* Background blobs */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-red-50 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2 opacity-60"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-gray-100 rounded-full blur-3xl translate-x-1/3 translate-y-1/3 opacity-80"></div>
