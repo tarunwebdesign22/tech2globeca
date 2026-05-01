@@ -138,10 +138,10 @@ const testimonialsData = [
 ];
 
 
-export default function LocalSeoPackages() {
+export default function PerformanceMarketing() {
   const breadcrumbs = [
     { label: "Home", href: "/" },
-    { label: "Local Seo Packages", href: "/local-seo-packages" }
+    { label: "Performance Marketing", href: "/performance-marketing" }
   ];
 
   return (
@@ -150,7 +150,7 @@ export default function LocalSeoPackages() {
       <Header />
 
       <PageHeader
-        title="LOCAL SEO Packages"
+        title="Performance Marketing"
         breadcrumbs={breadcrumbs}
       />
 
@@ -171,12 +171,13 @@ export default function LocalSeoPackages() {
       <section className="packages-container-main">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="table-responsive">
+
             <table className="table table-striped packages-table mb-0">
               <thead>
                 <tr>
                   <th className="path-th main-th" width="16.66%">
-                    <h2 className="text-center">
-                      Activity
+                    <h2 className="text-center">Activity
+
                     </h2>
                   </th>
                   <th className="path-th grey" width="16.66%">
@@ -197,21 +198,276 @@ export default function LocalSeoPackages() {
                   <th className="path-th main-custom" width="16.66%">
                     <h3>Custom</h3>
                   </th>
+
+
+
+
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td className="td-left">
-                    <h3>Total Keywords (Local Keywords)</h3>
+                    <h3>Keyword Target (Primary)</h3>
                   </td>
                   <td>
-                    10
+                    Upto 50
                   </td>
                   <td>
-                    20
+                    Upto 100
                   </td>
                   <td>
-                    40
+                    Upto 150
+                  </td>
+                  <td rowSpan="6">
+                    <a href="/contact-us" className="btn btn-danger">Get A Quote</a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="td-left">
+                    <h3>Keyword Tracking (Real Time)</h3>
+                  </td>
+                  <td>
+                    Upto 100
+                  </td>
+                  <td>
+                    Upto 200
+                  </td>
+                  <td>
+                    Upto 300
+                  </td>
+
+                </tr>
+
+                <tr>
+                  <td className="td-left">
+                    <h3>ROI</h3>
+                  </td>
+                  <td>
+                    Upto 2X
+                  </td>
+                  <td>
+                    3X - 4X
+                  </td>
+                  <td>
+                    4X - 6X
+                  </td>
+
+                </tr>
+
+                <tr>
+                  <td className="td-left">
+                    <h3>Best Suited For*</h3>
+                  </td>
+                  <td>
+                    Small Business/Single Location
+                  </td>
+                  <td>
+                    Leads Based Business
+                  </td>
+                  <td>
+                    E-commerce
+                    Business
+
+                  </td>
+
+                </tr>
+                <tr>
+                  <td className="td-left">
+                    <h3>ROI Factors</h3>
+                  </td>
+                  <td>
+                    Ranking+Traffc+Sales/Leads
+                  </td>
+                  <td>
+                    Ranking+Social Media Presence+Traffc+Sales/Leads
+                  </td>
+                  <td>
+                    Ranking+Social Media Presence+Traffc+Sales/Leads
+                  </td>
+
+                </tr>
+
+                <tr>
+                  <td className="td-left">
+                    <h3>Minimum Duration</h3>
+                  </td>
+                  <td>3 Months</td>
+                  <td>3 Months</td>
+                  <td>6 Months</td>
+
+                </tr>
+
+
+
+
+                <tr>
+                  <td className="full-row" colSpan="5">Total Budget for Ads
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="td-left">
+                    <h3>Social Media Ads
+                    </h3>
+                  </td>
+                  <td>
+                    Upto $ 600
+                  </td>
+                  <td>
+                    Upto $ 1,200
+                  </td>
+                  <td>
+                    Upto $ 2,000
+                  </td>
+                  <td rowSpan="2">
+                    <a href="/contact-us" className="btn btn-danger">Get A Quote</a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="td-left">
+                    <h3>PPC Ads</h3>
+                  </td>
+                  <td>
+                    Upto $ 2,000
+                  </td>
+                  <td>
+                    $ 2,000 - $ 4,000
+                  </td>
+                  <td>
+                    $ 4,000 - $ 8,000
+                  </td>
+                </tr>
+
+
+
+
+
+
+
+
+                <tr>
+                  <td className="full-row" colSpan="5">Marketing Channels</td>
+                </tr>
+
+                <tr>
+                  <td className="td-left">
+                    <h3>Search Engine Optimization (SEO)</h3>
+                  </td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td rowSpan="7">
+                    <a href="/contact-us" className="btn btn-danger">Get A Quote</a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="td-left">
+                    <h3>Content Marketing</h3>
+                  </td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+
+                <tr>
+                  <td className="td-left">
+                    <h3>Social Media Optimization (SMO)</h3>
+                  </td>
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  </td>
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  </td>
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  </td>
+                </tr>
+                <tr>
+                  <td className="td-left">
+                    <h3>Social Media Marketing (SMM)</h3>
+                  </td>
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image003.gif" src="images/clip_image003.gif" alt="" />
+                  </td>
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  </td>
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="td-left">
+                    <h3>Pay Per Click (PPC)</h3>
+                  </td>
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  </td>
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  </td>
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="td-left">
+                    <h3>Email Marketing</h3>
+                  </td>
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image003.gif" src="images/clip_image003.gif" alt="" />
+                  </td>
+
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  </td>
+
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  </td>
+                </tr>
+                <tr>
+                  <td className="td-left">
+                    <h3>Conversion Rate Optimization (CRO)</h3>
+                  </td>
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image003.gif" src="images/clip_image003.gif" alt="" />
+                  </td>
+
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  </td>
+
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  </td>
+                </tr>
+
+
+
+                <tr>
+                  <td className="full-row" colSpan="5">Initial Review & Analysis
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="td-left">
+                    <h3>Technical Website Audit</h3>
+                  </td>
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  </td>
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  </td>
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                   <td rowSpan="8">
                     <a href="/contact-us" className="btn btn-danger">Get A Quote</a>
@@ -219,188 +475,143 @@ export default function LocalSeoPackages() {
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>Target</h3>
+                    <h3>Competitor Analysis</h3>
                   </td>
                   <td>
-                    Local SERP + Google Maps
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                   <td>
-                    Local SERP + Google Maps
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                   <td>
-                    Local SERP + Google Maps
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>Best Suited For (Professional, Institutes, service providers & more)</h3>
+                    <h3>Backlinks Analysis</h3>
                   </td>
                   <td>
-                    Business with 1 Location
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                   <td>
-                    Business with 2 Locations
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                   <td>
-                    Business with 4 Locations
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>Expected Conversion</h3>
+                    <h3>Keyword Research & Mapping</h3>
                   </td>
                   <td>
-                    Ranking on Google Maps + Lead Call
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                   <td>
-                    Ranking on Google Maps + Lead Call
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                   <td>
-                    Ranking on Google Maps/Bing Maps + Lead Call
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>Total Contextual Backlinks</h3>
-                  </td>
-                  <td>5</td>
-                  <td>15</td>
-                  <td>25</td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Total Traditional Backlinks</h3>
-                  </td>
-                  <td>50</td>
-                  <td>90</td>
-                  <td>200</td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Est. Conversion Growth*</h3>
+                    <h3>Website Duplicate Content Check</h3>
                   </td>
                   <td>
-                    2X
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                   <td>
-                    2X to 3X
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                   <td>
-                    3X to 6X
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>Minimum Time Period</h3>
+                    <h3>Google Penalty Check</h3>
                   </td>
                   <td>
-                    3 Months
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                   <td>
-                    3 Months
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                   <td>
-                    6 Months
-                  </td>
-                </tr>
-                <tr>
-                  <td className="full-row" colSpan="7">Initial Review & Analysis Tasks
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>Full Website Audit</h3>
+                    <h3>Google Ads Account Analysis</h3>
                   </td>
                   <td>
-                    <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" />
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                   <td>
-                    <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" />
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                   <td>
-                    <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" />
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
-                  <td rowSpan="7">
+                </tr>
+                <tr>
+                  <td className="td-left">
+                    <h3>Social Media Analysis</h3>
+                  </td>
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  </td>
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  </td>
+                  <td>
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  </td>
+                </tr>
+
+
+
+                <tr>
+                  <td className="full-row" colSpan="5">On-Page Optimization</td>
+                </tr>
+                <tr>
+                  <td className="td-left">
+                    <h3>On Page Optimization</h3>
+                  </td>
+                  <td>
+                    Upto 50 Pages
+                  </td>
+                  <td>
+                    Upto 100 pages
+                  </td>
+                  <td>
+                    Upto 200 Pages
+                  </td>
+                  <td rowSpan="16">
                     <a href="/contact-us" className="btn btn-danger">Get A Quote</a>
                   </td>
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>GMB Audit</h3>
+                    <h3>Meta Tags Optimization</h3>
                   </td>
                   <td>
-                    <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" />
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                   <td>
-                    <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" />
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                   <td>
-                    <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" />
+                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
+
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>Duplicate Content Check</h3>
-                  </td>
-                  <td>
-                    <img className=" lazyloaded" data-src="images/clip_image003.gif" alt="" src="images/clip_image003.gif" />
-                  </td>
-                  <td>
-                    <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" />
-                  </td>
-                  <td>
-                    <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" />
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Google Penalty Check</h3>
-                  </td>
-                  <td> <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" /></td>
-                  <td> <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" /></td>
-                  <td> <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" /></td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Local Keywords Research & Analysis</h3>
-                  </td>
-                  <td> <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" /></td>
-                  <td> <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" /></td>
-                  <td> <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" /></td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Baseline Ranking Report</h3>
-                  </td>
-                  <td> <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" /></td>
-                  <td> <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" /></td>
-                  <td> <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" /></td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Competitor Analysis Report (No. of Competitor)</h3>
-                  </td>
-                  <td>2</td>
-                  <td>3</td>
-                  <td>5</td>
-                </tr>
-                <tr>
-                  <td className="full-row" colSpan="5">On Page Tasks</td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Number of Locations Covered</h3>
-                  </td>
-                  <td>1</td>
-                  <td>2</td>
-                  <td>3</td>
-                  <td rowSpan="20">
-                    <a href="/contact-us" className="btn btn-danger">Get A Quote</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>SEO Friendly URLs (URL Rewriting)</h3>
+                    <h3>Header Tags Optimization</h3>
                   </td>
                   <td>
                     <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
@@ -414,7 +625,8 @@ export default function LocalSeoPackages() {
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>Header (H1) Tags Optimization</h3>
+                    <h3>Website Content Optimization
+                    </h3>
                   </td>
                   <td>
                     <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
@@ -428,7 +640,8 @@ export default function LocalSeoPackages() {
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>Existing Website Content Optimization</h3>
+                    <h3>Internal Linking Optimization
+                    </h3>
                   </td>
                   <td>
                     <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
@@ -442,63 +655,8 @@ export default function LocalSeoPackages() {
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>New Page Creation</h3>
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image003.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Schema Markup Suggestions</h3>
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image003.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img src="images/clip_image002.gif" alt="" />
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Webmaster Tools - Crawl Error Resolution</h3>
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image003.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img src="images/clip_image002.gif" alt="" />
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Website Page Load Optimization</h3>
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image003.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image003.gif" alt="" />
-                  </td>
-                  <td>
-                    <img src="images/clip_image002.gif" alt="" />
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Internal Linking & Anchor Text Optimization</h3>
+                    <h3>Schema Implementation
+                    </h3>
                   </td>
                   <td>
                     <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
@@ -512,21 +670,8 @@ export default function LocalSeoPackages() {
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>Robots.txt Creation & Analysis</h3>
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image003.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>XML Sitemap Creation & Analysis</h3>
+                    <h3>Images Alt Tag Optimization
+                    </h3>
                   </td>
                   <td>
                     <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
@@ -540,7 +685,8 @@ export default function LocalSeoPackages() {
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>Google Webmaster Setup</h3>
+                    <h3>Google Analytic Setup & Integration
+                    </h3>
                   </td>
                   <td>
                     <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
@@ -554,7 +700,8 @@ export default function LocalSeoPackages() {
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>Google Analytics Setup</h3>
+                    <h3>Google Webmaster Setup
+                    </h3>
                   </td>
                   <td>
                     <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
@@ -568,21 +715,8 @@ export default function LocalSeoPackages() {
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>Image Alt Tag Optimization</h3>
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image003.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Local Page Analysis & Recommendation</h3>
+                    <h3>Robots.txt Optimization
+                    </h3>
                   </td>
                   <td>
                     <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
@@ -596,35 +730,8 @@ export default function LocalSeoPackages() {
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>URL Canonicalization Check</h3>
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image003.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Call Button Tracking</h3>
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img src="images/clip_image002.gif" alt="" />
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Adding Local Address to Website</h3>
+                    <h3>Sitemap Optimization
+                    </h3>
                   </td>
                   <td>
                     <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
@@ -638,56 +745,8 @@ export default function LocalSeoPackages() {
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>Google Map Embeds</h3>
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image003.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>KML Sitemap Creation</h3>
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                </tr>
-                <tr>
-                  <td className="full-row" colSpan="5">Local Search Optimization
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Google My Business Profile Setup & Verification</h3>
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td rowSpan="7">
-                    <a href="/contact-us" className="btn btn-danger">Get A Quote</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>GBP Optimization</h3>
+                    <h3>Mobile Usability Check
+                    </h3>
                   </td>
                   <td>
                     <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
@@ -701,7 +760,8 @@ export default function LocalSeoPackages() {
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>GBP Description Optimization</h3>
+                    <h3>URL Canonicalization Check
+                    </h3>
                   </td>
                   <td>
                     <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
@@ -715,7 +775,8 @@ export default function LocalSeoPackages() {
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>GBP Image/Video Upload & Optimization (If Provided)</h3>
+                    <h3>Navigation Analysis & Recommendations
+                    </h3>
                   </td>
                   <td>
                     <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
@@ -729,7 +790,8 @@ export default function LocalSeoPackages() {
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>Customer Review/Ratings</h3>
+                    <h3>E-E-A-T Suggestion
+                    </h3>
                   </td>
                   <td>
                     <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
@@ -743,21 +805,8 @@ export default function LocalSeoPackages() {
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>Bing & Yahoo Listings</h3>
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image003.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image003.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Listing on (Yelp, Yellow Pages, Foursquare, etc).</h3>
+                    <h3>Breadcrumb Implementation
+                    </h3>
                   </td>
                   <td>
                     <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
@@ -769,15 +818,22 @@ export default function LocalSeoPackages() {
                     <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
                   </td>
                 </tr>
+
+
+
+
+
                 <tr>
-                  <td className="full-row" colSpan="5">Content Marketing</td>
+                  <td className="full-row" colSpan="5">Content Marketing
+
+                  </td>
                 </tr>
                 <tr>
                   <td className="td-left">
                     <h3>Guest Blog Writing</h3>
                   </td>
                   <td>
-                    2
+                    3
                   </td>
                   <td>
                     5
@@ -785,7 +841,7 @@ export default function LocalSeoPackages() {
                   <td>
                     10
                   </td>
-                  <td rowSpan="5">
+                  <td rowSpan="6">
                     <a href="/contact-us" className="btn btn-danger">Get A Quote</a>
                   </td>
                 </tr>
@@ -794,13 +850,41 @@ export default function LocalSeoPackages() {
                     <h3>Article Writing & Submission</h3>
                   </td>
                   <td>
-                    3
+                    7
+                  </td>
+                  <td>
+                    15
+                  </td>
+                  <td>
+                    20
+                  </td>
+                </tr>
+                <tr>
+                  <td className="td-left">
+                    <h3>Q&A Submissions (Quora)</h3>
+                  </td>
+                  <td>
+                    5
                   </td>
                   <td>
                     10
                   </td>
                   <td>
                     15
+                  </td>
+                </tr>
+                <tr>
+                  <td className="td-left">
+                    <h3>Press Release Writing & Submission</h3>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    1
+                  </td>
+                  <td>
+                    2
                   </td>
                 </tr>
                 <tr>
@@ -819,7 +903,7 @@ export default function LocalSeoPackages() {
                 </tr>
                 <tr>
                   <td className="td-left">
-                    <h3>Premium Local Press Release**</h3>
+                    <h3>Premium Guest Posting*</h3>
                   </td>
                   <td>
                     Additional Charges
@@ -831,235 +915,334 @@ export default function LocalSeoPackages() {
                     Additional Charges
                   </td>
                 </tr>
-                <tr className="alert" role="alert" >
-                  <td className="td-left" colSpan="5">
-                    <strong>Word Count : </strong>
-                    <small className="fs-12">Guest Blog* 700 Per Post | Article Submission* 600 Per Article | Press Release* 1000 Per PR | Blog Posting*500 per Blog
-                    </small>
+
+                <tr>
+                  <td className="full-row" colSpan="5">Local SEO Optimization
                   </td>
                 </tr>
                 <tr>
-                  <td className="full-row" colSpan="5">Off Page Optimization</td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Content Curation/Syndication</h3>
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
+                  <td className="td-left">Google My Business Setup</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
                   <td rowSpan="5">
                     <a href="/contact-us" className="btn btn-danger">Get A Quote</a>
                   </td>
                 </tr>
                 <tr>
-                  <td className="td-left">
-                    <h3>Directory Submission</h3>
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image003.gif" src="images/clip_image002.gif" alt="" />
+                  <td className="td-left">Bing Local Listing Setup</td>
+                  <td><img className="lazyload" data-src="images/clip_image003.gif" src="images/clip_image003.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image003.gif" src="images/clip_image003.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Local Business Listings</td>
+                  <td>0</td>
+                  <td>5</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td className="td-left">Local Company Profile Creation</td>
+                  <td>0</td>
+                  <td>5</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td className="td-left">Review Postings</td>
+                  <td>0</td>
+                  <td>10</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td className="full-row" colSpan="5">Social Media
                   </td>
                 </tr>
                 <tr>
-                  <td className="td-left">
-                    <h3>Classifieds Submission</h3>
+                  <td className="td-left">No. of Channels</td>
+                  <td>Any 1
+                    (Facebook, Instagram, LinkedIn, YouTube, Twitter, Pinterest)
                   </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  <td>Any 2
+                    (Facebook, Instagram,LinkedIn, YouTube, Twitter, Pinterest)
                   </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  <td>Any 3
+                    (Facebook, Instagram, TikTok, LinkedIn, YouTube, Twitter, Pinterest)
                   </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
+                  <td rowSpan="14"><a href="/contact-us" className="btn btn-danger">Get A Quote</a></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Creating Social Media Calendar</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Profile Creation (If Necessary)</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Profile Optimization</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Target Audience Analysis</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Identify Hashtags</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Identify Business Goals</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Follow Social Media Trends & Memes</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Contests & Giveaways</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Facebook Ads* (Monthly Budget)</td>
+                  <td>Upto $ 300</td>
+                  <td>Upto $ 600
+                  </td>
+                  <td>Upto $ 1000</td>
+                </tr>
+                <tr>
+                  <td className="td-left">Instagram Ads* (Monthly Budget)</td>
+                  <td>Upto $ 300</td>
+                  <td>Upto $ 600
+                  </td>
+                  <td>Upto $ 1000</td>
+                </tr>
+                <tr>
+                  <td className="td-left">Post Boost*</td>
+                  <td><img className="lazyload" data-src="images/clip_image003.gif" src="images/clip_image003.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Influencers (Barter)</td>
+                  <td><img className="lazyload" data-src="images/clip_image003.gif" src="images/clip_image003.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image003.gif" src="images/clip_image003.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Influencers (Paid)</td>
+                  <td><img className="lazyload" data-src="images/clip_image003.gif" src="images/clip_image003.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image003.gif" src="images/clip_image003.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="full-row" colSpan="5">Google Ads (PPC)</td>
+                </tr>
+                <tr>
+                  <td className="td-left">Ad Budget*</td>
+                  <td>Upto $ 2,000</td>
+                  <td>$ 2,000 - $ 4,000</td>
+                  <td>$ 4,000 - $ 8,000</td>
+                  <td rowSpan="13"><a href="/contact-us" className="btn btn-danger">Get A Quote</a></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Networks (Google, Bing)</td>
+                  <td>Any 1</td>
+                  <td>Any 1</td>
+                  <td>Both</td>
+                </tr>
+                <tr>
+                  <td className="td-left">Competitor Analysis</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Keywords Analysis</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Search Advertising</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Display Advertising</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Remarketing</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Landing Page Suggestion</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Conversion Tracking Setup</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Shopping Ads</td>
+                  <td>*If Applicable</td>
+                  <td>*If Applicable</td>
+                  <td>*If Applicable</td>
+                </tr>
+                <tr>
+                  <td className="td-left">Ad Copies Creation</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Bid Strategy & Adjustments</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Ads A/B Testing</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="full-row" colSpan="5">Email Marketing
                   </td>
                 </tr>
                 <tr>
-                  <td className="td-left">
-                    <h3>GBP Links Syndication</h3>
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>GBP Timeline Posting</h3>
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                  <td>
-                    <img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" />
-                  </td>
-                </tr>
-                <tr>
-                  <td className="full-row" colSpan="5">SEO Reporting
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Google Analytics Report</h3>
-                  </td>
-                  <td>
-                    Monthly
-                  </td>
-                  <td>
-                    Bi-Weekly
-                  </td>
-                  <td>
-                    Weekly
-                  </td>
+                  <td className="td-left">Monthly Email Distribution</td>
+                  <td>Upto 5,000</td>
+                  <td>Upto 10,000</td>
+                  <td>Upto 15,000</td>
                   <td rowSpan="5">
                     <a href="/contact-us" className="btn btn-danger">Get A Quote</a>
                   </td>
                 </tr>
+                <tr>
+                  <td className="td-left">Custom Template</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Target Customer Keywords, Area</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Campaign Run</td>
+                  <td><img className="lazyload" data-src="images/clip_image003.gif" src="images/clip_image003.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Email Marketing Tools</td>
+                  <td>Additional Charges</td>
+                  <td>Additional Charges</td>
+                  <td>Additional Charges</td>
+                </tr>
+                <tr>
+                  <td className="full-row" colSpan="5">Setup & Tracking/Monitoring
+                  </td>
+                </tr>
+                <tr>
+                  <td className="td-left">Google Analytics Setup & Monitoring</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td rowSpan="4"><a href="/contact-us" className="btn btn-danger">Get A Quote</a></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Google Webmasters Setup & Monitoring</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
 
+                </tr>
+                <tr>
+                  <td className="td-left">Google Adwords Conversion Code Setup</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
 
-                <tr>
-                  <td className="td-left">
-                    <h3>Keyword Ranking Report</h3>
-                  </td>
-                  <td>
-                    Monthly
-                  </td>
-                  <td>
-                    Bi-Weekly
-                  </td>
-                  <td>
-                    Weekly
-                  </td>
                 </tr>
                 <tr>
-                  <td className="td-left">
-                    <h3>Progress Report</h3>
-                  </td>
-                  <td>
-                    Monthly
-                  </td>
-                  <td>
-                    Bi-Weekly
-                  </td>
-                  <td>
-                    Weekly
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>SEO Activity Report</h3>
-                  </td>
-                  <td>
-                    Monthly
-                  </td>
-                  <td>
-                    Bi-Weekly
-                  </td>
-                  <td>
-                    Weekly
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-left">
-                    <h3>Action Plan</h3>
-                  </td>
-                  <td>
-                    Quarterly
-                  </td>
-                  <td>
-                    Quarterly
-                  </td>
-                  <td>
-                    Monthly
-                  </td>
-                </tr>
+                  <td className="td-left">Goal Conversion Setup & Tracking In Analytics</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
 
-                <tr>
-                  <td className="full-row" colSpan="5">Customer Support</td>
                 </tr>
                 <tr>
-                  <td className="td-left">
-                    <h3>Email, Chat (WhatsApp, Skype, Slack)</h3>
-                  </td>
-                  <td>
-                    <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" />
-                  </td>
-                  <td>
-                    <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" />
-                  </td>
-                  <td>
-                    <img className=" lazyloaded" data-src="images/clip_image002.gif" alt="" src="images/clip_image002.gif" />
-                  </td>
-                  <td rowSpan="5">
-                    <a href="/contact-us" className="btn btn-danger">Get A Quote</a>
+                  <td className="full-row" colSpan="5">Reporting
                   </td>
                 </tr>
-
-
                 <tr>
-                  <td className="td-left">
-                    <h3>Voice Support</h3>
-                  </td>
-                  <td>
-                    Monthly
-                  </td>
-                  <td>
-                    Bi-Weekly
-                  </td>
-                  <td>
-                    Weekly
+                  <td className="td-left">Performance Report</td>
+                  <td>Monthly</td>
+                  <td>Bi-Weekly</td>
+                  <td>Weekly</td>
+                  <td rowSpan="2"><a href="/contact-us" className="btn btn-danger">Get A Quote</a></td>
+                </tr>
+                <tr>
+                  <td className="td-left">Activity Report</td>
+                  <td>Monthly</td>
+                  <td>Bi-Weekly</td>
+                  <td>Weekly</td>
+
+                </tr>
+                <tr>
+                  <td className="full-row" colSpan="5">Customer Support
                   </td>
                 </tr>
 
                 <tr>
-                  <td className="td-left">
-                    <h3>Project Dashboard</h3>
-                  </td>
-                  <td>
-                    Monthly
-                  </td>
-                  <td>
-                    Bi-Weekly
-                  </td>
-                  <td>
-                    Weekly
-                  </td>
+                  <td className="td-left">Dedicated Account Manager</td>
+                  <td><img className="lazyload" data-src="images/clip_image003.gif" src="images/clip_image003.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td rowSpan="4"><a href="/contact-us" className="btn btn-danger">Get A Quote</a></td>
                 </tr>
                 <tr>
-                  <td className="td-left">
-                    <h3>Monthly SEO Consulting (Hrs)</h3>
-                  </td>
-                  <td>
-                    2
-                  </td>
-                  <td>
-                    5
-                  </td>
-                  <td>
-                    10
-                  </td>
+                  <td className="td-left">Email, Chat (WhatsApp, Skype, Slack)</td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
+                  <td><img className="lazyload" data-src="images/clip_image002.gif" src="images/clip_image002.gif" alt="" /></td>
                 </tr>
-
+                <tr>
+                  <td className="td-left">Voice Support</td>
+                  <td>Monthly</td>
+                  <td>Bi-Weekly</td>
+                  <td>Weekly</td>
+                </tr>
               </tbody>
             </table>
           </div>

@@ -58,7 +58,7 @@ export default function Footer() {
             <li><a href="/privacy-policy" className="hover:text-[#c7010c] transition-colors">Privacy Policy</a></li>
             <li><a href="/cookies-policy" className="hover:text-[#c7010c] transition-colors">Cookies Policy</a></li>
             <li><a href="https://tech2globe.com/career" target="_blank" className="hover:text-[#c7010c] transition-colors">Careers</a></li>
-            <li><a href="#" className="hover:text-[#c7010c] transition-colors">Contact Us</a></li>
+            <li><a href="/contact-us" className="hover:text-[#c7010c] transition-colors">Contact Us</a></li>
           </ul>
 
           <div className="flex flex-col gap-4">

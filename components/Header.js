@@ -14,6 +14,17 @@ const locations = [
   { name: "Vancouver", href: "/digital-marketing-vancouver" },
 ];
 
+const packages = [
+  { name: "Business PPC Packages", href: "/business-service-ppc-packages" },
+  { name: "Business SEO Packages", href: "/business-service-seo-packages" },
+  { name: "Ecommerce PPC Packages", href: "/e-commerce-ppc-packages" },
+  { name: "Ecommerce SEO Packages", href: "/ecommerce-seo-packages" },
+  { name: "Local SEO Packages", href: "/local-seo-packages" },
+  { name: "Performance Marketing", href: "/performance-marketing" },
+  { name: "SMM Packages", href: "/smm-packages" },
+  { name: "SMO SMM Packages", href: "/smo-smm-packages" },
+];
+
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -43,14 +54,16 @@ export default function Header() {
 
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <Image
-              src="/images/tech2globe-logo.png"
-              alt="Tech2Globe Logo"
-              width={320}
-              height={148}
-              className="h-8 w-auto md:h-10 lg:h-12 transition-all"
-              priority
-            />
+            <a href="/">
+              <Image
+                src="/images/tech2globe-logo.png"
+                alt="Tech2Globe Logo"
+                width={320}
+                height={148}
+                className="h-8 w-auto md:h-10 lg:h-12 transition-all"
+                priority
+              />
+            </a>
           </div>
 
           {/* Desktop Menu */}
@@ -58,7 +71,29 @@ export default function Header() {
             <Link href="/" className="hover:text-[#c7010c]">HOME</Link>
             <Link href="/about-us" className="hover:text-[#c7010c]">ABOUT US</Link>
             <a href="#" className="hover:text-[#c7010c]">SERVICES</a>
-            <a href="#" className="hover:text-[#c7010c]">PACKAGES</a>
+            <div className="relative group">
+              <button
+                type="button"
+                className="flex items-center gap-1 hover:text-[#c7010c] focus:outline-none focus:text-[#c7010c]"
+                aria-haspopup="true"
+              >
+                PACKAGES
+                <FaChevronDown className="text-xs transition-transform duration-200 group-hover:rotate-180 group-focus-within:rotate-180" />
+              </button>
+              <div className="invisible absolute left-0 top-full z-50 min-w-[250px] bg-white pt-3 opacity-0 shadow-xl transition-all duration-200 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+                <div className="border-t-2 border-[#c7010c] py-2">
+                  {packages.map((pkg) => (
+                    <Link
+                      key={pkg.href}
+                      href={pkg.href}
+                      className="block px-5 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#c7010c]"
+                    >
+                      {pkg.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
             <div className="relative group">
               <button
                 type="button"
@@ -102,7 +137,21 @@ export default function Header() {
               <Link href="/" onClick={() => setIsOpen(false)}>HOME</Link>
               <Link href="/about-us" onClick={() => setIsOpen(false)}>ABOUT US</Link>
               <a href="#" onClick={() => setIsOpen(false)}>SERVICES</a>
-              <a href="#" onClick={() => setIsOpen(false)}>PACKAGES</a>
+              <div>
+                <p className="mb-2">PACKAGES</p>
+                <div className="ml-4 flex flex-col gap-3 border-l border-gray-300 pl-4 text-sm">
+                  {packages.map((pkg) => (
+                    <Link
+                      key={pkg.href}
+                      href={pkg.href}
+                      onClick={() => setIsOpen(false)}
+                      className="hover:text-[#c7010c]"
+                    >
+                      {pkg.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
               <div>
                 <p className="mb-2">LOCATION</p>
                 <div className="ml-4 flex flex-col gap-3 border-l border-gray-300 pl-4 text-sm">
