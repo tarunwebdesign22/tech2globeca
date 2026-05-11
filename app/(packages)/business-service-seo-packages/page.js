@@ -1301,7 +1301,7 @@ export default function BusinessServiceSeoPackages() {
       < section className="py-16 lg:py-24 bg-white" >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#222222]">
               Case Studies
             </h2>
             <div className="w-16 h-[3px] bg-[#c7010c] mx-auto mb-6"></div>
@@ -1321,7 +1321,7 @@ export default function BusinessServiceSeoPackages() {
 
                 {/* Title Bar */}
                 <div className="bg-[#c7010c] py-4 px-6 text-center">
-                  <h3 className="text-white font-bold text-lg uppercase tracking-wider">
+                  <h3 className="text-white font-semibold text-lg uppercase tracking-wider">
                     {study.title}
                   </h3>
                 </div>
@@ -1331,7 +1331,7 @@ export default function BusinessServiceSeoPackages() {
                   <div className="grid grid-cols-2 gap-4 mb-6 border-b border-gray-100 pb-6">
                     {study.stats.map((stat, idx) => (
                       <div key={idx} className="text-center">
-                        <div className="text-[#c7010c] text-3xl font-bold mb-1">
+                        <div className="text-[#c7010c] text-3xl font-semibold mb-1">
                           {stat.value}
                         </div>
                         <div className="text-gray-500 text-xs uppercase tracking-wide">
@@ -1347,7 +1347,7 @@ export default function BusinessServiceSeoPackages() {
                   <div className="mt-auto">
                     <a
                       href={study.link}
-                      className="text-gray-900 text-xs font-bold uppercase tracking-widest flex items-center hover:text-[#c7010c] transition-colors group"
+                      className="text-gray-900 text-xs font-semibold uppercase tracking-widest flex items-center hover:text-[#c7010c] transition-colors group"
                     >
                       Read More About Case Study
                       <span className="ml-2 text-[#c7010c] transform transition-transform group-hover:translate-x-1">→</span>

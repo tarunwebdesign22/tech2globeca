@@ -25,7 +25,7 @@ const ServiceCards = ({ services = [], columns = 3 }) => {
                 </div>
               </div>
 
-              <h3 className="text-[1.35rem] font-bold text-[#c7010c] mb-3">
+              <h3 className="text-[1.35rem] font-semibold text-[#c7010c] mb-3">
                 {service.title}
               </h3>
 

@@ -9,15 +9,15 @@ const locations = [
   { id: 6, name: "Vancouver", icon: <FiMapPin /> },
 ];
 
-export default function AvailableLocations({ 
-  title = "We Are Available To The Nearest Of You", 
-  subtitle = "Empowering your brand through digital excellence" 
+export default function AvailableLocations({
+  title = "We Are Available To The Nearest Of You",
+  subtitle = "Empowering your brand through digital excellence"
 }) {
   return (
     <section className="py-20 bg-white overflow-hidden">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+          <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#222222]">
             {title}
           </h2>
           <div className="w-16 h-[3px] bg-[#c7010c] mx-auto"></div>
@@ -41,18 +41,18 @@ export default function AvailableLocations({
                 <div className="w-14 h-14 bg-white rounded-none flex items-center justify-center text-[#c7010c] text-3xl shadow-sm mb-6 group-hover:bg-[#c7010c] group-hover:text-white transition-all duration-500">
                   {location.icon}
                 </div>
-                
-                <h3 className="text-2xl font-bold text-[#222222] mb-3 uppercase tracking-tight">
+
+                <h3 className="text-2xl font-semibold text-[#222222] mb-3 uppercase tracking-tight">
                   {location.name}
                 </h3>
-                
+
                 <div className="w-12 h-[3px] bg-red-100 group-hover:w-24 group-hover:bg-[#c7010c] transition-all duration-700 mb-6 rounded-none mx-auto"></div>
               </div>
 
               <div className="relative z-10">
-                <a 
-                  href={`#`} 
-                  className="inline-flex items-center gap-2 text-xs font-bold text-[#222222] group-hover:text-[#c7010c] transition-colors uppercase tracking-widest"
+                <a
+                  href={`#`}
+                  className="inline-flex items-center gap-2 text-xs font-semibold text-[#222222] group-hover:text-[#c7010c] transition-colors uppercase tracking-widest"
                 >
                   Explore Services
                   <span className="w-6 h-[1px] bg-[#222222] group-hover:bg-[#c7010c] transition-all duration-500 transform origin-left group-hover:scale-x-150"></span>

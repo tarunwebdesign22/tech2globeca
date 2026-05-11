@@ -99,7 +99,7 @@ export default function FaqContact({ faqs = [] }) {
                 <span className="text-[13px] text-gray-800">Success!</span>
               </div>
               <div className="flex flex-col items-end">
-                <span className="font-bold text-[#f38020] text-[10px] tracking-wider">CLOUDFLARE</span>
+                <span className="font-semibold text-[#f38020] text-[10px] tracking-wider">CLOUDFLARE</span>
                 <span className="text-[9px] text-gray-400">Privacy • Terms</span>
               </div>
             </div>

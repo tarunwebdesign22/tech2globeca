@@ -6,7 +6,7 @@ export default function LocationContact({ mapSrc }) {
   return (
     <section className="bg-[#1c1c1c] py-16 px-4 md:px-8">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
-        
+
         {/* Visit Us Section (Map) */}
         <div>
           <h2 className="text-2xl md:text-3xl font-semibold text-white mb-8 uppercase tracking-wide">
@@ -51,14 +51,14 @@ export default function LocationContact({ mapSrc }) {
                 required
               />
             </div>
-            
+
             <input
               type="email"
               placeholder="E-mail *"
               className="w-full bg-white px-4 py-3 text-[14px] focus:outline-none focus:ring-1 focus:ring-gray-300 border border-transparent"
               required
             />
-            
+
             <textarea
               placeholder="Type a message"
               rows={5}
@@ -77,8 +77,8 @@ export default function LocationContact({ mapSrc }) {
               </div>
               <div className="flex flex-col items-end">
                 <div className="flex items-center gap-1">
-                   {/* Cloudflare logo mock using cloud icon, or just text */}
-                  <span className="font-bold text-[#f38020] text-[10px] tracking-wide">CLOUDFLARE</span>
+                  {/* Cloudflare logo mock using cloud icon, or just text */}
+                  <span className="font-semibold text-[#f38020] text-[10px] tracking-wide">CLOUDFLARE</span>
                 </div>
                 <span className="text-[9px] text-gray-500 font-medium">Privacy • Help</span>
               </div>
@@ -87,14 +87,14 @@ export default function LocationContact({ mapSrc }) {
             <div className="pt-3">
               <button
                 type="submit"
-                className="bg-black hover:bg-gray-800 text-white font-bold py-3.5 px-8 text-xs tracking-widest transition-colors duration-300 rounded-[2px]"
+                className="bg-black hover:bg-gray-800 text-white font-semibold py-3.5 px-8 text-xs tracking-widest transition-colors duration-300 rounded-[2px]"
               >
                 SEND MESSAGE
               </button>
             </div>
           </form>
         </div>
-        
+
       </div>
     </section>
   );

@@ -29,7 +29,7 @@ export default function CookiesPolicy() {
       <section className="bg-white py-10 sm:py-14 md:py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Main Title */}
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-4">
             COOKIES POLICY
           </h2>
 
@@ -56,7 +56,7 @@ export default function CookiesPolicy() {
           </p>
 
           {/* What Are Cookies */}
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
             What Are Cookies
           </h3>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-8">
@@ -64,7 +64,7 @@ export default function CookiesPolicy() {
           </p>
 
           {/* Persistent or Session Cookies */}
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
             Cookies Can Be &ldquo;Persistent&rdquo; Or &ldquo;Session&rdquo; Cookies.
           </h3>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed italic mb-2">
@@ -102,7 +102,7 @@ export default function CookiesPolicy() {
           </ul>
 
           {/* Using Third Party Cookies */}
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
             Using Third Party Cookies
           </h3>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-3">
@@ -114,7 +114,7 @@ export default function CookiesPolicy() {
           </ul>
 
           {/* Your Choices Regarding Cookies */}
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
             What Are Your Choices Regarding Cookies?
           </h3>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-3">
@@ -125,7 +125,7 @@ export default function CookiesPolicy() {
           </p>
 
           {/* Children's Information */}
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
             Children&apos;s Information
           </h3>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-3">
@@ -136,7 +136,7 @@ export default function CookiesPolicy() {
           </p>
 
           {/* Changes to this Cookies Policy */}
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
             Changes to this Cookies Policy
           </h3>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-3">
@@ -150,7 +150,7 @@ export default function CookiesPolicy() {
           <hr className="border-gray-300 my-10" />
 
           {/* Contact Us */}
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 uppercase">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-4 uppercase">
             Contact Us
           </h2>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-8">
@@ -160,7 +160,7 @@ export default function CookiesPolicy() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Canada - Mississauga */}
             <div>
-              <h4 className="font-bold text-gray-900 mb-3">Canada</h4>
+              <h4 className="font-semibold text-gray-900 mb-3">Canada</h4>
               <div className="text-gray-600 text-sm sm:text-base leading-relaxed space-y-1">
                 <p>
                   <span className="font-semibold">By email :</span>{" "}
@@ -184,7 +184,7 @@ export default function CookiesPolicy() {
 
             {/* Canada - Port Alberni */}
             <div>
-              <h4 className="font-bold text-gray-900 mb-3">Canada</h4>
+              <h4 className="font-semibold text-gray-900 mb-3">Canada</h4>
               <div className="text-gray-600 text-sm sm:text-base leading-relaxed space-y-1">
                 <p>
                   <span className="font-semibold">By email :</span>{" "}

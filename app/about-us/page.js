@@ -38,7 +38,7 @@ export default function AboutUs() {
             {/* Right Text */}
             <div>
               <div className="mb-6">
-                <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 inline-block relative pb-2">
+                <h2 className="text-3xl lg:text-4xl font-semibold text-gray-900 inline-block relative pb-2">
                   About <span className="border-b-4 border-[#c7010c]">Tech2Globe Canada</span>
                 </h2>
               </div>
@@ -76,7 +76,7 @@ export default function AboutUs() {
               <div className="w-20 h-20 bg-white rounded-full shadow-md flex items-center justify-center mb-6 text-[#c7010c] border border-gray-100">
                 <FiBookOpen size={36} />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Our Mission</h3>
               <p className="text-gray-600 text-[15px] leading-relaxed max-w-md">
                 To leverage the spectrum of digitization & online marketing to help startups, SMEs, & large organizations with the expertise we have gained throughout these years.
               </p>
@@ -90,7 +90,7 @@ export default function AboutUs() {
               <div className="w-20 h-20 bg-white rounded-full shadow-md flex items-center justify-center mb-6 text-[#c7010c] border border-gray-100">
                 <FiGift size={36} />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Our Vision</h3>
               <p className="text-gray-600 text-[15px] leading-relaxed max-w-md">
                 To be the foremost company in the industry with the quickest turnaround time and diverse clientele base with superior thinking in ideation of the services we offer.
               </p>
@@ -103,7 +103,7 @@ export default function AboutUs() {
       <section className="py-[3.2rem] lg:py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 inline-block relative pb-2 border-b-4 border-[#c7010c]">
+            <h2 className="text-3xl font-semibold text-gray-900 inline-block relative pb-2 border-b-4 border-[#c7010c]">
               Recognition
             </h2>
           </div>
@@ -129,7 +129,7 @@ export default function AboutUs() {
       <section className="py-[3.2rem] lg:py-[4.8rem] bg-gray-50 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 inline-block relative pb-2 border-b-4 border-[#c7010c]">
+            <h2 className="text-3xl font-semibold text-gray-900 inline-block relative pb-2 border-b-4 border-[#c7010c]">
               Services With Us
             </h2>
           </div>
@@ -161,7 +161,7 @@ export default function AboutUs() {
       <section className="py-[3.2rem] lg:py-[4.8rem] bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <h2 className="text-3xl font-bold text-gray-900 inline-block relative pb-2 border-b-4 border-[#c7010c] mb-6">
+            <h2 className="text-3xl font-semibold text-gray-900 inline-block relative pb-2 border-b-4 border-[#c7010c] mb-6">
               Our Business Approach
             </h2>
             <div className="max-w-3xl mx-auto text-gray-600 text-[15px] leading-relaxed space-y-3">
@@ -173,22 +173,22 @@ export default function AboutUs() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
             <div className="p-10 border border-gray-100 shadow-sm hover:shadow-xl transition-shadow duration-300 rounded bg-white relative overflow-hidden group">
               <div className="absolute top-0 left-0 w-1 h-full bg-[#c7010c] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
-              <h3 className="text-xl font-bold text-[#c7010c] mb-4">Agile Based Decision Making</h3>
+              <h3 className="text-xl font-semibold text-[#c7010c] mb-4">Agile Based Decision Making</h3>
               <p className="text-gray-600 text-[15px] leading-relaxed">Our team works collaboratively with transparency that calls upon agile based decision making ensuring rapid growth, testing, and continuous improvement.</p>
             </div>
             <div className="p-10 border border-gray-100 shadow-sm hover:shadow-xl transition-shadow duration-300 rounded bg-white relative overflow-hidden group">
               <div className="absolute top-0 left-0 w-1 h-full bg-[#c7010c] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
-              <h3 className="text-xl font-bold text-[#c7010c] mb-4">Flexible Working Hours</h3>
+              <h3 className="text-xl font-semibold text-[#c7010c] mb-4">Flexible Working Hours</h3>
               <p className="text-gray-600 text-[15px] leading-relaxed">Our expert team is flexible with working hours, accommodating global time zones because they believe in making things happen regardless of distance.</p>
             </div>
             <div className="p-10 border border-gray-100 shadow-sm hover:shadow-xl transition-shadow duration-300 rounded bg-white relative overflow-hidden group">
               <div className="absolute top-0 left-0 w-1 h-full bg-[#c7010c] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
-              <h3 className="text-xl font-bold text-[#c7010c] mb-4">Client-Oriented Approach</h3>
+              <h3 className="text-xl font-semibold text-[#c7010c] mb-4">Client-Oriented Approach</h3>
               <p className="text-gray-600 text-[15px] leading-relaxed">All business decisions are made with the client's approval. The client is consulted on all major decision-making steps to ensure perfect alignment.</p>
             </div>
             <div className="p-10 border border-gray-100 shadow-sm hover:shadow-xl transition-shadow duration-300 rounded bg-white relative overflow-hidden group">
               <div className="absolute top-0 left-0 w-1 h-full bg-[#c7010c] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
-              <h3 className="text-xl font-bold text-[#c7010c] mb-4">Team Augmentation</h3>
+              <h3 className="text-xl font-semibold text-[#c7010c] mb-4">Team Augmentation</h3>
               <p className="text-gray-600 text-[15px] leading-relaxed">We have a pool of highly skilled and experienced employees. They will provide quality work professionally as extended members of your in-house team.</p>
             </div>
           </div>
@@ -200,7 +200,7 @@ export default function AboutUs() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-start">
             <div className="lg:w-1/3">
-              <h2 className="text-3xl lg:text-4xl font-bold leading-snug">
+              <h2 className="text-3xl lg:text-4xl font-semibold leading-snug">
                 Why Choose <br /><span className="text-[#c7010c]">Tech2Globe</span> To Establish Mutually Beneficial Business Partnerships?
               </h2>
             </div>

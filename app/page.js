@@ -421,7 +421,7 @@ export default function Home() {
           </span>
 
 
-          <h1 className="text-white font-bold 
+          <h1 className="text-white font-semibold 
                text-2xl sm:text-3xl md:text-4xl lg:text-6xl 
                leading-tight mb-4 sm:mb-6">
             IT SOLUTIONS
@@ -583,7 +583,7 @@ export default function Home() {
                   py-[1.2rem] sm:py-[1.6rem] md:py-8">
 
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#222222]">
               Meet Our Founder
             </h2>
             <div className="w-16 h-[3px] bg-[#c7010c] mx-auto mb-6"></div>
@@ -641,7 +641,7 @@ export default function Home() {
       <section className="pt-[3.2rem] bg-white">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#222222]">
               Our Complete Spectrum of Services
             </h2>
             <div className="w-16 h-[3px] bg-[#c7010c] mx-auto mb-6"></div>
@@ -654,7 +654,7 @@ export default function Home() {
       <section className="py-[3.2rem] bg-gray-50">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#222222]">
               See Our Packages
             </h2>
             <div className="w-16 h-[3px] bg-[#c7010c] mx-auto"></div>
@@ -673,7 +673,7 @@ export default function Home() {
                       {pkg.icon}
                     </div>
                   </div>
-                  <h3 className="text-[1.1rem] font-bold text-[#222222] uppercase tracking-wide leading-snug">
+                  <h3 className="text-[1.1rem] font-semibold text-[#222222] uppercase tracking-wide leading-snug">
                     {pkg.title}
                   </h3>
                 </div>
@@ -682,7 +682,7 @@ export default function Home() {
                 <div className="w-full py-6 px-8 border-t border-gray-100">
                   <a
                     href={pkg.link}
-                    className="inline-block bg-[#c7010c] text-white text-sm font-bold px-8 py-3 transition-colors hover:bg-black uppercase tracking-wider"
+                    className="inline-block bg-[#c7010c] text-white text-sm font-semibold px-8 py-3 transition-colors hover:bg-black uppercase tracking-wider"
                   >
                     Get A Quote
                   </a>
@@ -697,7 +697,7 @@ export default function Home() {
       <section className="py-[3.2rem] bg-white">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-2 text-[#222222]">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-2 text-[#222222]">
               Featured Services
             </h2>
             <div className="w-16 h-[3px] bg-[#c7010c] mx-auto mb-4"></div>
@@ -712,7 +712,7 @@ export default function Home() {
                 key={service.id}
                 className={`${service.bgColor} p-8 md:p-12 flex flex-col h-full transition-all hover:z-10 hover:shadow-2xl duration-300 group`}
               >
-                <h3 className={`text-2xl md:text-3xl font-bold mb-8 ${service.textColor} leading-tight`}>
+                <h3 className={`text-2xl md:text-3xl font-semibold mb-8 ${service.textColor} leading-tight`}>
                   {service.title}
                 </h3>
                 <ul className="space-y-4">
@@ -742,7 +742,7 @@ export default function Home() {
       <section className="py-[3.2rem] lg:py-[4.8rem] bg-white border-t border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#222222]">
               Why Choose Tech2Globe Canada
             </h2>
             <div className="w-16 h-[3px] bg-[#c7010c] mx-auto"></div>
@@ -754,7 +754,7 @@ export default function Home() {
               <div className="w-20 h-20  flex items-center justify-center mb-6 text-[#c7010c] ">
                 <FiUsers size={36} />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Proficient Team</h3>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Proficient Team</h3>
               <p className="text-gray-600 text-[15px] leading-relaxed">
                 Experience phenomenal growth in your business with our seasoned experts holding years of experience in the industry.
               </p>
@@ -765,7 +765,7 @@ export default function Home() {
               <div className="w-20 h-20  flex items-center justify-center mb-6 text-[#c7010c] ">
                 <FiRefreshCw size={36} />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Collaborative Process</h3>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Collaborative Process</h3>
               <p className="text-gray-600 text-[15px] leading-relaxed">
                 As your growth partners, we work in collaboration with your in-house team and offer full transparency with start-to-end tracking.
               </p>
@@ -776,7 +776,7 @@ export default function Home() {
               <div className="w-20 h-20  flex items-center justify-center mb-6 text-[#c7010c] ">
                 <FiAward size={36} />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Industry Experience</h3>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Industry Experience</h3>
               <p className="text-gray-600 text-[15px] leading-relaxed">
                 We have been in the industry for more than a decade now, which makes us a reliable partner for you with strong business acumen.
               </p>
@@ -787,7 +787,7 @@ export default function Home() {
               <div className="w-20 h-20  flex items-center justify-center mb-6 text-[#c7010c] ">
                 <FiTool size={36} />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Technical Assistance</h3>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Technical Assistance</h3>
               <p className="text-gray-600 text-[15px] leading-relaxed">
                 We offer value-driven and straightforward assistance with a quick problem-solving attitude and efficient troubleshooting.
               </p>
@@ -800,27 +800,27 @@ export default function Home() {
       {/* Get Started CTA Section */}
       <section className="bg-[#c7010c] py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-white text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-white text-3xl md:text-4xl font-semibold mb-6">
             Ready to Get Started?
           </h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 text-white mb-8">
             <div className="flex items-center gap-2">
               <FiPhone className="text-xl" />
               <span className="text-sm md:text-base font-medium">Call us Today for a Free Consultation:</span>
-              <a href="tel:+17783829628" className="text-sm md:text-base font-bold hover:underline">
+              <a href="tel:+17783829628" className="text-sm md:text-base font-semibold hover:underline">
                 +1-778-382-9628
               </a>
             </div>
             <div className="flex items-center gap-2">
               <FiMail className="text-xl" />
-              <a href="mailto:info@tech2globe.ca" className="text-sm md:text-base font-bold hover:underline">
+              <a href="mailto:info@tech2globe.ca" className="text-sm md:text-base font-semibold hover:underline">
                 info@tech2globe.ca
               </a>
             </div>
           </div>
           <a
             href="/contact-us"
-            className="inline-flex items-center gap-3 border-2 border-white text-white px-8 py-3 font-bold uppercase tracking-widest hover:bg-white hover:text-[#c7010c] transition-all duration-300"
+            className="inline-flex items-center gap-3 border-2 border-white text-white px-8 py-3 font-semibold uppercase tracking-widest hover:bg-white hover:text-[#c7010c] transition-all duration-300"
           >
             Let&apos;s Talk
             <FaComments className="text-xl" />
@@ -832,7 +832,7 @@ export default function Home() {
       <section className="py-16 lg:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#222222]">
               Case Studies
             </h2>
             <div className="w-16 h-[3px] bg-[#c7010c] mx-auto mb-6"></div>
@@ -852,7 +852,7 @@ export default function Home() {
 
                 {/* Title Bar */}
                 <div className="bg-[#c7010c] py-4 px-6 text-center">
-                  <h3 className="text-white font-bold text-lg uppercase tracking-wider">
+                  <h3 className="text-white font-semibold text-lg uppercase tracking-wider">
                     {study.title}
                   </h3>
                 </div>
@@ -862,7 +862,7 @@ export default function Home() {
                   <div className="grid grid-cols-2 gap-4 mb-6 border-b border-gray-100 pb-6">
                     {study.stats.map((stat, idx) => (
                       <div key={idx} className="text-center">
-                        <div className="text-[#c7010c] text-3xl font-bold mb-1">
+                        <div className="text-[#c7010c] text-3xl font-semibold mb-1">
                           {stat.value}
                         </div>
                         <div className="text-gray-500 text-xs uppercase tracking-wide">
@@ -878,7 +878,7 @@ export default function Home() {
                   <div className="mt-auto">
                     <a
                       href={study.link}
-                      className="text-gray-900 text-xs font-bold uppercase tracking-widest flex items-center hover:text-[#c7010c] transition-colors group"
+                      className="text-gray-900 text-xs font-semibold uppercase tracking-widest flex items-center hover:text-[#c7010c] transition-colors group"
                     >
                       Read More About Case Study
                       <span className="ml-2 text-[#c7010c] transform transition-transform group-hover:translate-x-1">→</span>
@@ -895,7 +895,7 @@ export default function Home() {
       <section className="py-16 lg:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#222222]">
               Insights And News
             </h2>
             <div className="w-16 h-[3px] bg-[#c7010c] mx-auto"></div>
@@ -917,7 +917,7 @@ export default function Home() {
 
                 {/* Content */}
                 <div className="p-8 flex flex-col flex-grow relative">
-                  <h3 className="text-xl font-bold text-gray-900 mb-4 line-clamp-2 min-h-[3.5rem]">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4 line-clamp-2 min-h-[3.5rem]">
                     {post.title}
                   </h3>
                   <p className="text-gray-600 text-[15px] leading-relaxed mb-8 line-clamp-3">
@@ -944,7 +944,7 @@ export default function Home() {
       <section className="py-16 lg:py-20 bg-white border-t border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#222222]">
               Credentials & Partnerships
             </h2>
             <div className="w-16 h-[3px] bg-[#c7010c] mx-auto"></div>

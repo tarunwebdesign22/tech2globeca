@@ -169,10 +169,10 @@ export default function DigitalMarketingMississauga() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 uppercase">
+              <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-6 uppercase">
                 Digital Marketing Company in Mississauga, Canada
               </h2>
-              <p className="text-[#c7010c] font-bold text-lg md:text-xl mb-8">
+              <p className="text-[#c7010c] font-semibold text-lg md:text-xl mb-8">
                 We have the experience to produce results and help you reach your target audience, you can rely on us to improve your web visibility and increase conversions!
               </p>
 
@@ -195,7 +195,7 @@ export default function DigitalMarketingMississauga() {
       {/* CTA Banner */}
       <section className="bg-[#c7010c] py-[2.8rem] overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 flex flex-col items-center text-center gap-4">
-          <h2 className="text-white text-3xl md:text-4xl font-bold">
+          <h2 className="text-white text-3xl md:text-4xl font-semibold">
             Let&apos;s Talk About Your Project
           </h2>
           <p className="text-white text-base md:text-lg font-light">
@@ -223,7 +223,7 @@ export default function DigitalMarketingMississauga() {
       <section className="bg-[#f0f0f0] py-[3.2rem] overflow-hidden">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="text-center mb-10">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#222222]">
               Best Digital Marketing Services Mississauga, Canada
             </h2>
             <p className="text-[#c7010c] text-lg font-medium leading-relaxed max-w-3xl mx-auto">
@@ -260,7 +260,7 @@ export default function DigitalMarketingMississauga() {
       <section className="bg-white py-[3.2rem] lg:py-[4.8rem] overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#222222]">
               Best in-class results
             </h2>
             <div className="w-24 h-[2px] bg-[#c7010c] mx-auto mb-4"></div>

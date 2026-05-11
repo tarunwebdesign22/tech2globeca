@@ -11,7 +11,7 @@ const ExpertiseSection = ({ data }) => {
     <section className="py-[3.2rem] bg-white">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222222]">
+          <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#222222]">
             We Offer Multifold Expertise
           </h2>
           <div className="w-16 h-[3px] bg-[#c7010c] mx-auto mb-6"></div>
@@ -50,7 +50,7 @@ const ExpertiseSection = ({ data }) => {
 
                 {/* Right side Content */}
                 <div className="w-full lg:w-1/2">
-                  <h3 className="text-2xl md:text-[1.75rem] font-bold text-[#c7010c] mb-3">
+                  <h3 className="text-2xl md:text-[1.75rem] font-semibold text-[#c7010c] mb-3">
                     {item.title}
                   </h3>
                   <p className="text-[#444444] mb-3 leading-[1.8] text-[15px]">
@@ -73,7 +73,7 @@ const ExpertiseSection = ({ data }) => {
 
                   <a
                     href={item.link}
-                    className="inline-block bg-[#222222] text-white px-8 py-3.5 text-sm font-bold tracking-wider hover:bg-[#c7010c] transition-colors duration-300"
+                    className="inline-block bg-[#222222] text-white px-8 py-3.5 text-sm font-semibold tracking-wider hover:bg-[#c7010c] transition-colors duration-300"
                   >
                     VIEW MORE INFO
                   </a>

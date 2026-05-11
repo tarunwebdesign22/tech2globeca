@@ -26,11 +26,11 @@ export default function Testimonials({
 
           {/* LEFT SIDE */}
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#222]">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#222]">
               {title}
             </h2>
 
-            <p className="text-[#c7010c] font-bold text-lg md:text-xl mb-6">
+            <p className="text-[#c7010c] font-semibold text-lg md:text-xl mb-6">
               {subtitle}
             </p>
 
@@ -74,12 +74,12 @@ export default function Testimonials({
 
                     {/* AUTHOR */}
                     <div className="flex items-center gap-4 pl-4">
-                      <div className="w-14 h-14 bg-[#c7010c] flex items-center justify-center text-white text-xl font-bold">
+                      <div className="w-14 h-14 bg-[#c7010c] flex items-center justify-center text-white text-xl font-semibold">
                         {item.letter}
                       </div>
 
                       <div>
-                        <div className="font-bold text-[#222]">
+                        <div className="font-semibold text-[#222]">
                           {item.name}
                         </div>
                         <div className="text-gray-400 text-xs uppercase tracking-wide">

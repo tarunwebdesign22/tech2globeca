@@ -27,7 +27,7 @@ export default function Footer() {
             We specialize in digital marketing, website development and mobile development. Our team of professionals have years of experience helping businesses like yours succeed through the power of technology.
           </p>
           <div>
-            <h4 className="font-bold mb-4 uppercase text-black">Social Links</h4>
+            <h4 className="font-semibold mb-4 uppercase text-black">Social Links</h4>
             <div className="flex gap-4 text-black">
               <a href="#" className="hover:text-[#c7010c] transition-colors"><FaFacebookF size={18} /></a>
               <a href="#" className="hover:text-[#c7010c] transition-colors"><FaTwitter size={18} /></a>
@@ -39,7 +39,7 @@ export default function Footer() {
 
         {/* Column 2: Services */}
         <div>
-          <h4 className="font-bold mb-6 uppercase text-black">Services</h4>
+          <h4 className="font-semibold mb-6 uppercase text-black">Services</h4>
           <ul className="flex flex-col gap-3 text-gray-600">
             <li><a href="#" className="hover:text-[#c7010c] transition-colors">Digital Marketing</a></li>
             <li><a href="#" className="hover:text-[#c7010c] transition-colors">UI/UX Design</a></li>
@@ -52,7 +52,7 @@ export default function Footer() {
 
         {/* Column 3: Useful Links & Badges */}
         <div>
-          <h4 className="font-bold mb-6 uppercase text-black">Useful Links</h4>
+          <h4 className="font-semibold mb-6 uppercase text-black">Useful Links</h4>
           <ul className="flex flex-col gap-3 text-gray-600 mb-8">
             <li><a href="/terms-and-conditions" className="hover:text-[#c7010c] transition-colors">Terms & Conditions</a></li>
             <li><a href="/privacy-policy" className="hover:text-[#c7010c] transition-colors">Privacy Policy</a></li>
@@ -68,7 +68,7 @@ export default function Footer() {
             </div>
 
             <div>
-              <h5 className="font-bold text-xs mb-2">Featured In</h5>
+              <h5 className="font-semibold text-xs mb-2">Featured In</h5>
               <div className="flex items-center gap-4">
                 {/* Using divs as placeholders for the partner/featured logos */}
 
@@ -92,7 +92,7 @@ export default function Footer() {
 
         {/* Column 4: Contact Info */}
         <div>
-          <h4 className="font-bold mb-6 uppercase text-black">Contact Info</h4>
+          <h4 className="font-semibold mb-6 uppercase text-black">Contact Info</h4>
           <div className="flex flex-col gap-6 text-gray-600">
             <div>
               <p className="font-semibold text-gray-800">Canada</p>

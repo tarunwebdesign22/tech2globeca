@@ -30,7 +30,7 @@ export default function TermsAndConditions() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 
           {/* Introduction */}
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
             Introduction
           </h3>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-8">
@@ -47,7 +47,7 @@ export default function TermsAndConditions() {
           </p>
 
           {/* Changes to the Terms */}
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
             Changes to the Terms
           </h3>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-8">
@@ -64,7 +64,7 @@ export default function TermsAndConditions() {
           </p>
 
           {/* Eligibility */}
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
             Eligibility
           </h3>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-8">
@@ -72,7 +72,7 @@ export default function TermsAndConditions() {
           </p>
 
           {/* Use of the Site */}
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
             Use of the Site
           </h3>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-3">
@@ -87,7 +87,7 @@ export default function TermsAndConditions() {
           </ul>
 
           {/* Intellectual Property */}
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
             Intellectual Property
           </h3>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-8">
@@ -95,7 +95,7 @@ export default function TermsAndConditions() {
           </p>
 
           {/* User Submissions */}
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
             User Submissions
           </h3>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-8">
@@ -103,7 +103,7 @@ export default function TermsAndConditions() {
           </p>
 
           {/* Disclaimer of Warranties */}
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
             Disclaimer of Warranties
           </h3>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-8">
@@ -120,7 +120,7 @@ export default function TermsAndConditions() {
           </p>
 
           {/* Limitation of Liability */}
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
             Limitation of Liability
           </h3>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-8">
@@ -128,7 +128,7 @@ export default function TermsAndConditions() {
           </p>
 
           {/* Indemnification */}
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
             Indemnification
           </h3>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-8">
@@ -136,7 +136,7 @@ export default function TermsAndConditions() {
           </p>
 
           {/* Governing Law */}
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
             Governing Law
           </h3>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-8">
@@ -156,7 +156,7 @@ export default function TermsAndConditions() {
           <hr className="border-gray-300 my-10" />
 
           {/* Contact Us */}
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 uppercase">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-4 uppercase">
             Contact Us
           </h2>
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-8">
@@ -166,7 +166,7 @@ export default function TermsAndConditions() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Canada - Mississauga */}
             <div>
-              <h4 className="font-bold text-gray-900 mb-3">Canada</h4>
+              <h4 className="font-semibold text-gray-900 mb-3">Canada</h4>
               <div className="text-gray-600 text-sm sm:text-base leading-relaxed space-y-1">
                 <p>
                   <span className="font-semibold">By email :</span>{" "}
@@ -190,7 +190,7 @@ export default function TermsAndConditions() {
 
             {/* Canada - Port Alberni */}
             <div>
-              <h4 className="font-bold text-gray-900 mb-3">Canada</h4>
+              <h4 className="font-semibold text-gray-900 mb-3">Canada</h4>
               <div className="text-gray-600 text-sm sm:text-base leading-relaxed space-y-1">
                 <p>
                   <span className="font-semibold">By email :</span>{" "}
