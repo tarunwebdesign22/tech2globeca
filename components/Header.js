@@ -174,7 +174,7 @@ export default function Header() {
                 PACKAGES
                 <FaChevronDown className="text-xs transition-transform duration-200 group-hover:rotate-180 group-focus-within:rotate-180" />
               </button>
-              <div className="invisible absolute left-0 top-full z-50 min-w-[250px] bg-[#2a2a2a] opacity-0 shadow-xl transition-all duration-200 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+              <div className="invisible absolute left-0 top-[50px] z-50 min-w-[250px] bg-[#2a2a2a] opacity-0 shadow-xl transition-all duration-200 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
                 <div className="border-t-2 border-[#c7010c] py-2">
                   {packages.map((pkg) => (
                     <Link
@@ -197,7 +197,7 @@ export default function Header() {
                 LOCATION
                 <FaChevronDown className="text-xs transition-transform duration-200 group-hover:rotate-180 group-focus-within:rotate-180" />
               </button>
-              <div className="invisible absolute left-0 top-full z-50 min-w-[250px] bg-[#2a2a2a] opacity-0 shadow-xl transition-all duration-200 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+              <div className="invisible absolute left-0 top-[50px] z-50 min-w-[250px] bg-[#2a2a2a] opacity-0 shadow-xl transition-all duration-200 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
                 <div className="border-t-2 border-[#c7010c] py-2">
                   {locations.map((location) => (
                     <Link
