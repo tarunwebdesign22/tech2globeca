@@ -31,7 +31,7 @@ const servicesData = [
     links: [
       { name: "Digital Marketing Agency", href: "/digital-marketing-agency", icon: <FaBullhorn className="text-gray-400 mt-1 flex-shrink-0" /> },
       { name: "SEO Agency Toronto", href: "/seo-agency-toronto", icon: <FaSearch className="text-gray-400 mt-1 flex-shrink-0" /> },
-      { name: "PPC Management", href: "/ppc-management", icon: <FaMousePointer className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "PPC Management", href: "/ppc-management-services", icon: <FaMousePointer className="text-gray-400 mt-1 flex-shrink-0" /> },
       { name: "Local Seo", href: "/local-seo", icon: <FaMapMarkerAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
       { name: "Social Media Marketing", href: "/social-media-marketing", icon: <FaTwitter className="text-gray-400 mt-1 flex-shrink-0" /> },
       { name: "Influencer Marketing", href: "/influencer-marketing", icon: <FaBullhorn className="text-gray-400 mt-1 flex-shrink-0" /> },
@@ -52,7 +52,7 @@ const servicesData = [
     title: "BPO/KPO/DATA",
     links: [
       { name: "Medical Data Entry", href: "/medical-data-entry", icon: <FaFileAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
-      { name: "Restaurant Data Entry", href: "/restaurant-data-entry", icon: <FaFileAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Restaurant Data Entry", href: "/restaurant-menu-data-entry-services", icon: <FaFileAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
       { name: "Logistic & Transportation", href: "/logistic-transportation", icon: <FaFileAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
       { name: "Financial And Accounting Services", href: "/financial-accounting-services", icon: <FaFileAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
       { name: "Customer Onboarding Services", href: "/customer-onboarding-services", icon: <FaFileAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
@@ -63,7 +63,7 @@ const servicesData = [
   {
     title: "APP DEVELOPMENT",
     links: [
-      { name: "Mobile App Development", href: "/mobile-app-development", icon: <FaMobileAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Mobile App Development", href: "/mobile-app-development-services", icon: <FaMobileAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
       { name: "iPhone App Development", href: "/iphone-app-development", icon: <FaMobileAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
     ]
   },
