@@ -28,13 +28,35 @@ import {
   FiMapPin,
   FiStar,
   FiShield,
+  FiActivity,
+  FiShoppingCart,
+  FiCoffee,
+  FiHome,
 } from "react-icons/fi";
-
+import { FaLink, FaSearch } from "react-icons/fa";
+import "./custom.css";
 
 
 export const metadata = {
-  title: "Digital Marketing Agency | Tech2Globe Canada",
-  description: "Dominate online with Tech2Globe, a top digital marketing agency offering SEO, PPC, social media, content marketing, and lead generation services.",
+  title: "Digital Marketing Agency in Toronto | Boost Online Presence",
+  description:
+    "Digital Marketing Agency in Toronto. Results-driven ROI marketing, complimentary audits, customized plans, and 11,000+ successful projects.",
+
+  keywords: ["Digital Marketing Agency in Toronto"],
+
+  alternates: {
+    canonical: "https://tech2globe.ca/digital-marketing-agency",
+  },
+
+  openGraph: {
+    title: "Digital Marketing Agency in Toronto | Boost Online Presence",
+    description:
+      "Results-driven ROI marketing, complimentary audits, customized plans, and 11,000+ successful projects.",
+    url: "https://tech2globe.ca/digital-marketing-agency",
+    siteName: "Tech2Globe Canada: Multi-Function IT Outsourcing Services",
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 const clientsData3 = [
@@ -45,6 +67,30 @@ const clientsData3 = [
   { id: 5, name: 'Trustpilot', logo: 'images/clients/trust-pilot.png' },
   { id: 6, name: 'Ypca', logo: 'images/clients/ypca.png' },
   { id: 7, name: 'Extract', logo: 'images/clients/extract.png' },
+];
+
+
+const portfolioItems = [
+  {
+    title: "QUIQUP",
+    image: "/images/portfolio/QUIQUP.png",
+    website: "https://www.quiqup.com/",
+  },
+  {
+    title: "QUIQUP",
+    image: "/images/portfolio/QUIQUP.png",
+    website: "https://www.quiqup.com/",
+  },
+  {
+    title: "QUIQUP",
+    image: "/images/portfolio/QUIQUP.png",
+    website: "https://www.quiqup.com/",
+  },
+  {
+    title: "QUIQUP",
+    image: "/images/portfolio/QUIQUP.png",
+    website: "https://www.quiqup.com/",
+  },
 ];
 
 const faqsData = [
@@ -271,43 +317,68 @@ export default function DigitalMarketingAgency() {
         </div>
       </section>
 
-      {/* Tools and Technologies Section */}
+
       <section className="bg-white py-[3.2rem] lg:py-[4.8rem] overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#222222]">
-              Tools And Technologies We Make Use Of
+              Industries We Served
             </h2>
             <div className="w-24 h-[2px] bg-[#c7010c] mx-auto mb-4"></div>
-            <p className="text-gray-600">Empowering your brand in a digital world</p>
+            <p className="text-gray-600">With over 14 years of proven results in multiple industries, <br />we’ve been successfully the top name in digital marketing Canada!</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-            <div className="bg-[#fafafa] py-8 px-6 flex flex-col items-center text-center transition-all hover:shadow-md">
-              <div className="mb-6 text-[#c7010c]">
-                <FiMonitor size={56} strokeWidth={1.5} />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 mt-12 relative">
+            {/* Healthcare */}
+            <div className="flex flex-col items-center text-center relative z-10">
+              <div className="mb-6 text-[#c7010c] bg-white rounded-full p-4 shadow-sm border border-gray-100 flex items-center justify-center w-28 h-28">
+                <FiActivity size={48} strokeWidth={1.5} />
               </div>
-              <h3 className="text-xl font-medium text-[#222222]">
-                Increasing Website Traffic
+              <h3 className="text-xl font-bold text-[#222222] mb-3">
+                Healthcare
               </h3>
+              <p className="text-gray-600 leading-relaxed text-sm">
+                Tech2Globe is a one-stop shop for anything connected to healthcare marketing. Because of our years of expertise, dealing with practically every sort of company in this market. We are particularly well-suited to assist you in creating your brand and reaching your goals. We don't only offer digital marketing services Canada; rather, it's our team's undivided concentration on delivering correct outcomes, which can only be accomplished by working with people who actually care about creating yours as well!
+              </p>
             </div>
 
-            <div className="bg-[#fafafa] py-8 px-6 flex flex-col items-center text-center transition-all hover:shadow-md">
-              <div className="mb-6 text-[#c7010c]">
-                <FiTool size={56} strokeWidth={1.5} />
+            {/* Ecommerce */}
+            <div className="flex flex-col items-center text-center relative z-10">
+              <div className="mb-6 text-[#c7010c] bg-white rounded-full p-4 shadow-sm border border-gray-100 flex items-center justify-center w-28 h-28">
+                <FiShoppingCart size={48} strokeWidth={1.5} />
               </div>
-              <h3 className="text-xl font-medium text-[#222222]">
-                Advanced Analytics Tools
+              <h3 className="text-xl font-bold text-[#222222] mb-3">
+                Ecommerce
               </h3>
+              <p className="text-gray-600 leading-relaxed text-sm">
+                Customer behaviour, technological integration, and competitive pressure affect how effectively your online store succeeds. You can boost customer loyalty and outperform the competition by providing exceptional digital marketing services Canada's user experiences across all touchpoints where customers are likely to connect with you. From SEO to CRO, PPC to Social Media, email to content marketing, influencer marketing to maintaining your online reputation, and attribution and measurement to any other topic you can think of, we've covered it all.
+              </p>
             </div>
 
-            <div className="bg-[#fafafa] py-8 px-6 flex flex-col items-center text-center transition-all hover:shadow-md">
-              <div className="mb-6 text-[#c7010c]">
-                <FiMessageCircle size={56} strokeWidth={1.5} />
+            {/* Food And Restaurant */}
+            <div className="flex flex-col items-center text-center relative z-10">
+              <div className="mb-6 text-[#c7010c] bg-white rounded-full p-4 shadow-sm border border-gray-100 flex items-center justify-center w-28 h-28">
+                <FiCoffee size={48} strokeWidth={1.5} />
               </div>
-              <h3 className="text-xl font-medium text-[#222222]">
-                24/7 Customer Support
+              <h3 className="text-xl font-bold text-[#222222] mb-3">
+                Food And Restaurant
               </h3>
+              <p className="text-gray-600 leading-relaxed text-sm">
+                Tech2Globe, the leading digital marketing agency Ottawa, can offer all of the elements your food website requires, such as search engine optimization, traffic growth, client relationship building, and more. This will allow more customers to connect with the website. Tech2Globe can help you create a customer-focused, keyword-rich, and search-engine-optimized website, among other things, thanks to advancements in communication and technology.
+              </p>
+            </div>
+
+            {/* Real Estate */}
+            <div className="flex flex-col items-center text-center relative z-10">
+              <div className="mb-6 text-[#c7010c] bg-white rounded-full p-4 shadow-sm border border-gray-100 flex items-center justify-center w-28 h-28">
+                <FiHome size={48} strokeWidth={1.5} />
+              </div>
+              <h3 className="text-xl font-bold text-[#222222] mb-3">
+                Real Estate
+              </h3>
+              <p className="text-gray-600 leading-relaxed text-sm">
+                Our results-driven online marketing agency specializes in lead creation for both B2B and B2C companies. We help our clients gain more customers through search while also being recognized for our efforts. Our team has assisted over 400 real estate clients.
+              </p>
             </div>
           </div>
         </div>
@@ -321,27 +392,158 @@ export default function DigitalMarketingAgency() {
               Our Portfolio
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Check out some of our recent work. We have helped numerous businesses achieve their digital marketing goals.
+              Our work speaks louder than what you read about us! Tech2Globe, digital marketing agency Toronto, assists you in promoting your business globally by employing the greatest marketing strategies.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-white p-4 shadow-md rounded-lg flex flex-col items-center">
-              <div className="w-full h-48 bg-gray-200 flex items-center justify-center mb-4 text-gray-500">
-                Portfolio Item 1
-              </div>
-              <h4 className="font-semibold text-lg text-gray-800">Kicks</h4>
+
+          <div className="portfolioGrid">
+
+            {/* Card 1 */}
+            <div className="gridItem">
+              <figure>
+                <div className="portfolioImg">
+                  <Image
+                    src="/images/services/QUIQUP.png"
+                    alt="QUIQUP"
+                    width={500}
+                    height={300}
+                    className="image"
+                  />
+
+                  <div className="portfolioIcon">
+                    <a
+                      href="https://www.quiqup.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaLink />
+                    </a>
+
+                    <a
+                      href="/images/portfolio/QUIQUP.png"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaSearch />
+                    </a>
+                  </div>
+                </div>
+
+                <figcaption>
+                  <span>QUIQUP</span>
+                </figcaption>
+              </figure>
             </div>
-            <div className="bg-white p-4 shadow-md rounded-lg flex flex-col items-center">
-              <div className="w-full h-48 bg-gray-200 flex items-center justify-center mb-4 text-gray-500">
-                Portfolio Item 2
-              </div>
-              <h4 className="font-semibold text-lg text-gray-800">Shop 100</h4>
+
+            {/* Card 2 */}
+            <div className="gridItem">
+              <figure>
+                <div className="portfolioImg">
+                  <Image
+                    src="/images/services/sports456.jpg"
+                    alt="Sports456"
+                    width={500}
+                    height={300}
+                    className="image"
+                  />
+
+                  <div className="portfolioIcon">
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaLink />
+                    </a>
+
+                    <a
+                      href="/images/services/sports456.jpg"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaSearch />
+                    </a>
+                  </div>
+                </div>
+
+                <figcaption>
+                  <span>Sports456</span>
+                </figcaption>
+              </figure>
             </div>
-            <div className="bg-white p-4 shadow-md rounded-lg flex flex-col items-center">
-              <div className="w-full h-48 bg-gray-200 flex items-center justify-center mb-4 text-gray-500">
-                Portfolio Item 3
-              </div>
-              <h4 className="font-semibold text-lg text-gray-800">Diva Stuff</h4>
+
+            {/* Card 3 */}
+            <div className="gridItem">
+              <figure>
+                <div className="portfolioImg">
+                  <Image
+                    src="/images/services/shopaloo.jpg"
+                    alt="Shopaloo"
+                    width={500}
+                    height={300}
+                    className="image"
+                  />
+
+                  <div className="portfolioIcon">
+                    <a
+                      href="https://shopaloo.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaLink />
+                    </a>
+
+                    <a
+                      href="/images/services/QUIQUP.png"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaSearch />
+                    </a>
+                  </div>
+                </div>
+
+                <figcaption>
+                  <span>Shopaloo</span>
+                </figcaption>
+              </figure>
+            </div>
+
+            {/* Card 4 */}
+            <div className="gridItem">
+              <figure>
+                <div className="portfolioImg">
+                  <Image
+                    src="/images/services/plazasurfsports.jpg"
+                    alt="plazasurfsports"
+                    width={500}
+                    height={300}
+                    className="image"
+                  />
+
+                  <div className="portfolioIcon">
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaLink />
+                    </a>
+
+                    <a
+                      href="/images/services/plazasurfsports.jpg"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaSearch />
+                    </a>
+                  </div>
+                </div>
+
+                <figcaption>
+                  <span>PLAZA SURF SPORTS</span>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </div>

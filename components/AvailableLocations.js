@@ -16,7 +16,7 @@ export default function AvailableLocations({
   return (
     <section className="py-20 bg-white overflow-hidden">
       <div className="container mx-auto px-4 max-w-6xl">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#222222]">
             {title}
           </h2>
@@ -30,32 +30,28 @@ export default function AvailableLocations({
           {locations.map((location) => (
             <div
               key={location.id}
-              className="group relative bg-gray-50 p-10 rounded-none border border-gray-100 shadow-sm transition-all duration-500 hover:shadow-2xl hover:shadow-red-600/10 hover:-translate-y-2 overflow-hidden flex flex-col items-center text-center justify-center min-h-[220px]"
+              className="group relative bg-gray-50 p-6 rounded-none border border-gray-100 shadow-sm transition-all duration-500 hover:shadow-lg hover:shadow-red-600/10 hover:-translate-y-1 overflow-hidden flex flex-col items-center text-center justify-center"
             >
               {/* Decorative Background Element */}
-              <div className="absolute -right-4 -bottom-4 text-gray-200 text-8xl transform rotate-12 transition-all duration-700 group-hover:rotate-0 group-hover:text-red-50/50">
+              <div className="absolute -right-4 -bottom-4 text-gray-200 text-8xl transform rotate-12 transition-all duration-700 group-hover:rotate-0 group-hover:text-red-50/50 pointer-events-none">
                 {location.icon}
               </div>
 
               <div className="relative z-10 flex flex-col items-center">
-                <div className="w-14 h-14 bg-white rounded-none flex items-center justify-center text-[#c7010c] text-3xl shadow-sm mb-6 group-hover:bg-[#c7010c] group-hover:text-white transition-all duration-500">
-                  {location.icon}
-                </div>
-
-                <h3 className="text-2xl font-semibold text-[#222222] mb-3 uppercase tracking-tight">
+                <h3 className="text-xl font-semibold text-[#222222] mb-3 uppercase tracking-tight">
                   {location.name}
                 </h3>
 
-                <div className="w-12 h-[3px] bg-red-100 group-hover:w-24 group-hover:bg-[#c7010c] transition-all duration-700 mb-6 rounded-none mx-auto"></div>
+                <div className="w-12 h-[2px] bg-red-100 group-hover:w-16 group-hover:bg-[#c7010c] transition-all duration-700 mb-4 rounded-none mx-auto"></div>
               </div>
 
               <div className="relative z-10">
                 <a
                   href={`#`}
-                  className="inline-flex items-center gap-2 text-xs font-semibold text-[#222222] group-hover:text-[#c7010c] transition-colors uppercase tracking-widest"
+                  className="inline-flex items-center gap-2 text-[11px] font-semibold text-[#222222] group-hover:text-[#c7010c] transition-colors uppercase tracking-widest"
                 >
                   Explore Services
-                  <span className="w-6 h-[1px] bg-[#222222] group-hover:bg-[#c7010c] transition-all duration-500 transform origin-left group-hover:scale-x-150"></span>
+                  <span className="w-6 h-[1px] bg-[#222222] group-hover:bg-[#c7010c] transition-all duration-500 transform origin-left group-hover:scale-x-125"></span>
                 </a>
               </div>
             </div>
