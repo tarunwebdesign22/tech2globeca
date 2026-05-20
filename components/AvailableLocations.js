@@ -14,7 +14,7 @@ export default function AvailableLocations({
   subtitle = "Empowering your brand through digital excellence"
 }) {
   return (
-    <section className="py-20 bg-white overflow-hidden">
+    <section className="py-16 bg-white overflow-hidden">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#222222]">

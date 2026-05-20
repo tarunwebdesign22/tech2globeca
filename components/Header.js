@@ -32,10 +32,10 @@ const servicesData = [
       { name: "Digital Marketing Agency", href: "/digital-marketing-agency", icon: <FaBullhorn className="text-gray-400 mt-1 flex-shrink-0" /> },
       { name: "SEO Agency Toronto", href: "/seo-agency-toronto", icon: <FaSearch className="text-gray-400 mt-1 flex-shrink-0" /> },
       { name: "PPC Management", href: "/ppc-management-services", icon: <FaMousePointer className="text-gray-400 mt-1 flex-shrink-0" /> },
-      { name: "Local Seo", href: "/local-seo", icon: <FaMapMarkerAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
-      { name: "Social Media Marketing", href: "/social-media-marketing", icon: <FaTwitter className="text-gray-400 mt-1 flex-shrink-0" /> },
-      { name: "Influencer Marketing", href: "/influencer-marketing", icon: <FaBullhorn className="text-gray-400 mt-1 flex-shrink-0" /> },
-      { name: "Content Marketing", href: "/content-marketing", icon: <FaPen className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Local Seo", href: "/local-seo-services", icon: <FaMapMarkerAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Social Media Marketing", href: "/social-media-marketing-services", icon: <FaTwitter className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Influencer Marketing", href: "/influencer-marketing-services", icon: <FaBullhorn className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Content Marketing", href: "/content-marketing-services", icon: <FaPen className="text-gray-400 mt-1 flex-shrink-0" /> },
     ]
   },
   {
