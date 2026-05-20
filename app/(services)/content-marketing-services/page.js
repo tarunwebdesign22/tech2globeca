@@ -9,42 +9,34 @@ import Image from "next/image";
 import {
   FiMonitor,
   FiTool,
-  FiMessageCircle,
-  FiSearch,
-  FiShare2,
-  FiFileText,
-  FiMousePointer,
-  FiLayout,
-  FiMail,
-  FiCheckCircle,
-  FiThumbsUp,
   FiTarget,
   FiEdit3,
   FiUsers,
   FiGlobe,
-  FiLink,
-  FiMapPin,
   FiStar,
-  FiShield,
-  FiActivity,
-  FiShoppingCart,
-  FiCoffee,
-  FiHome,
-  FiBarChart2,
-  FiDollarSign,
-  FiPhone,
-  FiDatabase,
   FiAward,
-  FiTrendingUp,
-  FiHeadphones,
   FiRefreshCw,
   FiEdit,
+  FiEye,
+  FiBookOpen,
+  FiMic,
+  FiCode,
+  FiPackage,
+  FiLanguages,
+  FiHome,
+  FiMail,
+  FiSend,
+  FiShare2,
+  FiTrendingUp,
+  FiHeadphones,
   FiLayers,
   FiBriefcase,
-  FiEye,
+  FiDollarSign,
+  FiFileText,
+  FiShoppingCart,
 } from "react-icons/fi";
 
-import { FaCheck, FaComments, FaHandshake, FaLink, FaSearch, FaShareAlt } from "react-icons/fa";
+import { FaCheck, FaComments, FaHandshake, FaLink, FaSearch, FaShareAlt, FaSignLanguage } from "react-icons/fa";
 import "./custom.css";
 import Industries from "@/components/Industries";
 import ConsultancySlider from "@/components/services/ConsultancySlider";
@@ -264,6 +256,135 @@ const servicesData = [
   }
 ];
 
+const servicesData2 = [
+  {
+    id: 1,
+    title: "Content Writing",
+    description:
+      "Build Credibility And Revenue Highly researched content Content for Targeted Audience Technical content expertise",
+    icon: <FiEdit3 size={32} color="#ffffff" />
+  },
+  {
+    id: 2,
+    title: "Blog Writing",
+    description:
+      "Convey scholarly information Evidence-based reasoning Authoritative point of view Concrete word choice",
+    icon: <FiBookOpen size={32} color="#ffffff" />
+  },
+  {
+    id: 3,
+    title: "Article Writing",
+    description:
+      "Flexible Writing Methods Highly Researched Articles 100% Original Content Keyword Optimised Content",
+    icon: <FiFileText size={32} color="#ffffff" />
+  },
+  {
+    id: 4,
+    title: "Press Release",
+    description:
+      "100% Originally Crafted Content SEO Optimised Content On-Time Delivery Instant Exposure",
+    icon: <FiMic size={32} color="#ffffff" />
+  },
+  {
+    id: 5,
+    title: "Guest Posting",
+    description:
+      "Domain & SEO Authority Build Quality Traffic Create Strong Brand Awareness Fast Turn-Around Time",
+    icon: <FiGlobe size={32} color="#ffffff" />
+  },
+  {
+    id: 6,
+    title: "Technical Content",
+    description:
+      "SEO Best Practice In Every Stroke Well Researched Content Cites Credible Sources Informative Content",
+    icon: <FiCode size={32} color="#ffffff" />
+  },
+  {
+    id: 7,
+    title: "Ecommerce Copywriting",
+    description:
+      "Content As Per Industry Standards Unique & Descriptive Content Quality And Quantity Result Oriented Content",
+    icon: <FiShoppingCart size={32} color="#ffffff" />
+  },
+  {
+    id: 8,
+    title: "Product Description",
+    description:
+      "Creative, And Unique Content Leads On The Targeted Group Expert Content Creators Structure For All Businesses",
+    icon: <FiPackage size={32} color="#ffffff" />
+  },
+  {
+    id: 9,
+    title: "Product Reviews",
+    description:
+      "Concrete Word Choice Understanding The Customers Highly Strategized Content Unique Writing Proposition",
+    icon: <FiStar size={32} color="#ffffff" />
+  },
+  {
+    id: 10,
+    title: "Language Translation",
+    description:
+      "Professional Interpretation Commercial & Web Translation Industry-Expert Translators Proofreading By Senior Editors",
+    icon: <FaSignLanguage size={32} color="#ffffff" />
+  },
+  {
+    id: 11,
+    title: "AD Copywriting Services",
+    description:
+      "Complete Research And Planning Asses The Competition Creating Content Considering Your Audience Engaging Ad Copies",
+    icon: <FiTarget size={32} color="#ffffff" />
+  },
+  {
+    id: 12,
+    title: "Case Studies",
+    description:
+      "All-inclusive Bespoke Case Study Writing Educate Clients and Audience Creative And Versatile Expert Writers Services For Diverse Industry Verticals",
+    icon: <FiBriefcase size={32} color="#ffffff" />
+  },
+  {
+    id: 13,
+    title: "Company Profile",
+    description:
+      "Powerful Company Presence Engaging Business Profile Writing Service 100% Plagiarism-free Content Convey Your Business With Attractive Profile",
+    icon: <FiHome size={32} color="#ffffff" />
+  },
+  {
+    id: 14,
+    title: "Email Writing",
+    description:
+      "Excellent Content That Drives Results Writing Good Customer Service Emails Engaging Email Copies Compelling Crisp Content",
+    icon: <FiMail size={32} color="#ffffff" />
+  },
+  {
+    id: 15,
+    title: "Newsletters",
+    description:
+      "We can be your word of mouth A/B Testing Mobile Friendly Newsletters Email Support",
+    icon: <FiSend size={32} color="#ffffff" />
+  },
+  {
+    id: 16,
+    title: "Website Content",
+    description:
+      "Highly Appealing, Readable, And Unique Content Content For A Wide Variety Of Sectors Creative And Versatile Web Content Writers Thoroughly Researched Content",
+    icon: <FiMonitor size={32} color="#ffffff" />
+  },
+  {
+    id: 17,
+    title: "Social Media Content",
+    description:
+      "Compelling Content That Attracts Connect With Your Audience Precise Content and Creative Graphics Dominate the Social Media Space",
+    icon: <FiShare2 size={32} color="#ffffff" />
+  },
+  {
+    id: 18,
+    title: "Transcription Services",
+    description:
+      "Quick Turnaround Can Be Downloaded In Any Format Transcription By Professionals Confidentiality At Priority",
+    icon: <FiMic size={32} color="#ffffff" />
+  }
+]
+
 
 export default function SocialMediaMarketingServices() {
   return (
@@ -303,95 +424,132 @@ export default function SocialMediaMarketingServices() {
       <AvailableLocations title="Our Digital Marketing Location" subtitle="" />
 
 
-
-
-
-
-
-
-
       <section className="py-16 bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-semibold text-[#222222] mb-4">
-              How Social Media Platforms Help With
-              Better Social Presence?
+              Transform Your Ideas Into Powerful Storytelling
+              With Our Expert Writing Services
             </h2>
             <div className="w-24 h-[2px] bg-[#c7010c] mx-auto mb-4"></div>
-            <p>As a top SMO company in Canada, we provide comprehensive, cutting-edge solutions to help you scale your business on every single social media platform!</p>
+            <p className="mb-3">
+              Tech2Globe Canada has a staff of experienced writers that are well-versed in all aspects of SEO writing. With a creative mindset and originality, our top copywriters put out their best efforts in developing bespoke SEO content tailored to specific company requirements. Our SEO writing services include a wide range of topics, including one-page blogs, off-page blogs, website content writing, keyword research, article writing, outreach affordable content marketing services, SEO copywriting, and many others.<br /><br />Our writers specialise in curating SEO-friendly material that improves the overall SERPs of websites, allowing ambitious companies to achieve the ultimate aim of digital marketing.<br /><br /><strong>Check out our top service offerings:</strong>
+            </p>
+
           </div>
+          <ServiceCards services={servicesData2} columns={3} />
+        </div>
+      </section>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12">
-            <div className="flex flex-col">
-              <Image width={100} height={100} src="/images/services/facebook-icon.png" alt="Facebook" className="mb-3" />
-              <h3 className="text-xl font-bold text-[#c7010c] mb-4">
-                Facebook Marketing
-              </h3>
-              <p className="text-[#555555] leading-relaxed text-[15px] md:text-[16px] font-normal flex-grow">
-                Advertising on Facebook can help bring your professional practices to the attention of a new audience more swiftly. As an experienced social media marketing agency, we personalise your ad to potential clients interested in your product or service based on their interests, gender, or even region using data from Facebook. Facebook's advertising platform has developed over time; users can now execute a marketing campaign or run advertisements.
+
+      <section className="py-[3.2rem] lg:py-[4.8rem] bg-white border-t border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#222222]">
+              Unleash The Power Of Words With Best Content Marketing Services In Toronto
+            </h2>
+            <div className="w-16 h-[3px] bg-[#c7010c] mx-auto"></div>
+            <p className="mt-4 text-gray-600 text-lg">See the benefits accruing to you by hiring the affordable content marketing services of our experienced expert Writers Teams:</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
+            {/* Proficient Team */}
+            <div className="flex flex-col items-center text-center">
+              <div className="w-20 h-20  flex items-center justify-center mb-6 text-[#c7010c] ">
+                <FiUsers size={36} />
+              </div>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Experienced team</h3>
+              <p className="text-gray-600 text-[15px] leading-relaxed">
+                World-class writing at incredibly affordable prices and Prompt delivery
               </p>
-              <div className="w-12 h-[3px] bg-[#c7010c] mt-6"></div>
             </div>
 
-            <div className="flex flex-col">
-              <Image width={100} height={100} src="/images/services/youtube-logo-icon.png" alt="Youtube" className="mb-3" />
-              <h3 className="text-xl font-bold text-[#c7010c] mb-4">
-                YouTube Marketing
-              </h3>
-              <p className="text-[#555555] leading-relaxed text-[15px] md:text-[16px] font-normal flex-grow">
-                YouTube is rapidly expanding, with over 5 billion videos watched every day! This platform receives far more traffic than any other. Even if you don't make many videos for your company, you may still reach a large audience by advertising your services on other people's videos. YouTube has a larger pool of traffic that you're almost certain to find potential clients if you appeal to their wants. By implementing YouTube marketing with the help of the best social marketing company, you are also strengthening your company's internet authority.
+            {/* Collaborative Process */}
+            <div className="flex flex-col items-center text-center">
+              <div className="w-20 h-20  flex items-center justify-center mb-6 text-[#c7010c] ">
+                <FiRefreshCw size={36} />
+              </div>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Custom solutions</h3>
+              <p className="text-gray-600 text-[15px] leading-relaxed">
+                Practicality in capturing the hearts of readers with honesty and truth
               </p>
-              <div className="w-12 h-[3px] bg-[#c7010c] mt-6"></div>
             </div>
 
-            <div className="flex flex-col">
-              <Image width={100} height={100} src="/images/services/linkedin-icon.png" alt="LinkedIn" className="mb-3" />
-              <h3 className="text-xl font-bold text-[#c7010c] mb-4">
-                LinkedIn Marketing
-              </h3>
-              <p className="text-[#555555] leading-relaxed text-[15px] md:text-[16px] font-normal flex-grow">
-                LinkedIn is a platform where one looks for something informative or engaging in nature. You can cover many areas on one platform with the help of LinkedIn marketing, resulting in a considerable volume of leads. Your company or personal profile is critical to the success of your marketing activities. Your social media marketing Toronto can be targeted to a specific set of people who have access to the platform on any device, and tablets using LinkedIn's marketing features, attracting traffic to your campaign.
+            {/* Industry Experience */}
+            <div className="flex flex-col items-center text-center">
+              <div className="w-20 h-20  flex items-center justify-center mb-6 text-[#c7010c] ">
+                <FiAward size={36} />
+              </div>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Excellent communication</h3>
+              <p className="text-gray-600 text-[15px] leading-relaxed">
+                Boosting your website's ranking in key search engines
               </p>
-              <div className="w-12 h-[3px] bg-[#c7010c] mt-6"></div>
             </div>
 
-            <div className="flex flex-col">
-              <Image width={100} height={100} src="/images/services/instagram-icon.png" alt="Instagram" className="mb-3" />
-              <h3 className="text-xl font-bold text-[#c7010c] mb-4">
-                Instagram Marketing
-              </h3>
-              <p className="text-[#555555] leading-relaxed text-[15px] md:text-[16px] font-normal flex-grow">
-                Instagram is a visually appealing social media platform with stunning recent features like reels. This social app now has over 800 million active users. However, Instagram is more than just a platform having a collection of beautiful photos and videos; many businesses now use the app as part of their digital marketing strategy. Still, being the top SMO company in Canada, we avoid over-posting and uploading irrelevant content. It creates a bad impact on your audience!
+            {/* Technical Assistance */}
+            <div className="flex flex-col items-center text-center">
+              <div className="w-20 h-20  flex items-center justify-center mb-6 text-[#c7010c] ">
+                <FiTool size={36} />
+              </div>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Competitive pricing</h3>
+              <p className="text-gray-600 text-[15px] leading-relaxed">
+                Efficient digital marketing across social networking sites to elevate your brand.
               </p>
-              <div className="w-12 h-[3px] bg-[#c7010c] mt-6"></div>
             </div>
 
-            <div className="flex flex-col">
-              <Image width={100} height={100} src="/images/services/twitter-icon.png" alt="Twitter" className="mb-3" />
-              <h3 className="text-xl font-bold text-[#c7010c] mb-4">
-                Twitter Marketing
-              </h3>
-              <p className="text-[#555555] leading-relaxed text-[15px] md:text-[16px] font-normal flex-grow">
-                Twitter marketing can be enhanced by launching cross-channel campaigns centred by the best social marketing company. Tech2Globe social media services team maintains your overall social media and digital marketing approach collaborative and platform-oriented so you may invest your resources where and when they are most needed. The above social media marketing Toronto can also be applied to other social accounts, providing even more complementing alternatives.
-              </p>
-              <div className="w-12 h-[3px] bg-[#c7010c] mt-6"></div>
-            </div>
-
-            <div className="flex flex-col">
-              <Image width={100} height={100} src="/images/services/pinterest-icon.png" alt="Pinterest" className="mb-3" />
-              <h3 className="text-xl font-bold text-[#c7010c] mb-4">
-                Pinterest Marketing
-              </h3>
-              <p className="text-[#555555] leading-relaxed text-[15px] md:text-[16px] font-normal flex-grow">
-                Pinterest marketing services can benefit your brand because the platform rapidly becomes a search powerhouse for individuals worldwide. The network currently has over 175 million active users who use the enticing pinboards based on their particular niche of interest. Tech2Globe is the perfect option for harnessing the actual power of Pinterest to increase the ROI of your brand.
-              </p>
-              <div className="w-12 h-[3px] bg-[#c7010c] mt-6"></div>
-            </div>
           </div>
         </div>
       </section>
 
-      <ClientSlider title="Meet Our Clients" clients={clientsData} />
+      {/* Step-by-Step Approach Section */}
+      <section className="workflow-section">
+        <div className="workflow-overlay"></div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 workflow-container">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-semibold text-white mb-4">
+              Step-By-Step Approach By Content Marketing Agency Canada <br className="hidden md:inline" /> To Serve Our Customers
+            </h2>
+            <div className="w-24 h-[2px] bg-[#c7010c] mx-auto mb-6"></div>
+            <p className="text-gray-300 max-w-3xl mx-auto leading-relaxed text-[15px] md:text-[16px]">
+              Tech2Globe team obeys a streamlined workflow to deliver fast and affordable content marketing services in the most professional manner saving our client's valuable time, effort and money!
+            </p>
+          </div>
+
+          <div className="workflow-grid">
+            <div className="workflow-card">
+              <span className="workflow-number">01.</span>
+              <h3 className="workflow-title">Consulting & Quoting</h3>
+              <p className="workflow-desc">
+                Discuss goals, express ideas & brief about your company to our expert content strategists
+              </p>
+            </div>
+
+            <div className="workflow-card">
+              <span className="workflow-number">02.</span>
+              <h3 className="workflow-title">Curating</h3>
+              <p className="workflow-desc">
+                Our best copywriters and creative content writers will brainstorm ideas to include.
+              </p>
+            </div>
+
+            <div className="workflow-card">
+              <span className="workflow-number">03.</span>
+              <h3 className="workflow-title">Quality Checking</h3>
+              <p className="workflow-desc">
+                Once the writing is done, content is sent to our proficient proofreaders for thorough scrutinization.
+              </p>
+            </div>
+
+            <div className="workflow-card">
+              <span className="workflow-number">04.</span>
+              <h3 className="workflow-title">Final Delivery</h3>
+              <p className="workflow-desc">
+                After quality-checking, we deliver the content to our customers to assure top-notch quality work.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="py-16 bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -409,6 +567,9 @@ export default function SocialMediaMarketingServices() {
           <ServiceCards services={servicesData} columns={3} />
         </div>
       </section>
+
+
+
 
 
       <Industries />
