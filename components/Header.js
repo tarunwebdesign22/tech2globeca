@@ -41,17 +41,17 @@ const servicesData = [
   {
     title: "UI/UX DESIGN",
     links: [
-      { name: "Custom Web Development", href: "/custom-web-development", icon: <FaWrench className="text-gray-400 mt-1 flex-shrink-0" /> },
-      { name: "Photo Editing", href: "/photo-editing", icon: <FaImage className="text-gray-400 mt-1 flex-shrink-0" /> },
-      { name: "Web Development", href: "/web-development", icon: <FaWrench className="text-gray-400 mt-1 flex-shrink-0" /> },
-      { name: "Graphic Design", href: "/graphic-design", icon: <FaPaintBrush className="text-gray-400 mt-1 flex-shrink-0" /> },
-      { name: "Interactive Design", href: "/interactive-design", icon: <FaHandPointer className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Custom Web Development", href: "/custom-web-development-services", icon: <FaWrench className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Photo Editing", href: "/photo-editing-services", icon: <FaImage className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Web Development", href: "/web-development-agency", icon: <FaWrench className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Graphic Design", href: "/graphic-design-services", icon: <FaPaintBrush className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Interactive Design", href: "/interactive-design-services", icon: <FaHandPointer className="text-gray-400 mt-1 flex-shrink-0" /> },
     ]
   },
   {
     title: "BPO/KPO/DATA",
     links: [
-      { name: "Medical Data Entry", href: "/medical-data-entry", icon: <FaFileAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Medical Data Entry", href: "/medical-data-entry-services", icon: <FaFileAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
       { name: "Restaurant Data Entry", href: "/restaurant-menu-data-entry-services", icon: <FaFileAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
       { name: "Logistic & Transportation", href: "/logistic-transportation", icon: <FaFileAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
       { name: "Financial And Accounting Services", href: "/financial-accounting-services", icon: <FaFileAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
