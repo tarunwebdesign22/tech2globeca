@@ -430,7 +430,7 @@ export default function EcommerceWebsiteDevelopment() {
               <div className="h-[120px] flex items-center justify-center mb-6">
                 <img
                   src="/images/services/wo-commerce-icon.png"
-                  alt="Shopify"
+                  alt="WooCommerce"
                   className="max-h-[90px] w-auto object-contain"
                 />
               </div>
@@ -447,7 +447,7 @@ export default function EcommerceWebsiteDevelopment() {
               <div className="h-[120px] flex items-center justify-center mb-6">
                 <img
                   src="/images/services/magento-logo-icon.png"
-                  alt="Shopify"
+                  alt="Magento"
                   className="max-h-[90px] w-auto object-contain"
                 />
               </div>
@@ -465,7 +465,7 @@ export default function EcommerceWebsiteDevelopment() {
 
                 <img
                   src="/images/services/open-cart-icon.png"
-                  alt="Shopify"
+                  alt="OpenCart"
                   className="max-h-[90px] w-auto object-contain"
                 />
 
