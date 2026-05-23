@@ -35,9 +35,9 @@ export default function FaqContact({ faqs = [] }) {
                   </span>
                 </button>
                 {openFaqIndex === index && (
-                  <div className="px-5 pb-4 text-[14px] text-gray-600 border-t border-gray-100 pt-3">
-                    {faq.answer}
-                  </div>
+                  <div className="px-5 pb-4 text-[14px] text-gray-600 border-t border-gray-100 pt-3"
+                    dangerouslySetInnerHTML={{ __html: faq.answer }}
+                  />
                 )}
               </div>
             ))}
