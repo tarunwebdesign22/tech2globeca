@@ -148,6 +148,23 @@ const packagesData = [
   }
 ];
 
+const slides = [
+  {
+    id: 1,
+    title: "Paid Search Advertisements",
+    description: "Paid search ads are the most typical and the best PPC services. When experimenting with PPC advertising, this is the ad type that most advertisers begin with. They then choose the highest price they are ready to pay if their ad is clicked on and get listed on Google Ads for the ad copy they want to appear for when a user searches for their keywords",
+    buttonText: "ABOUT COMPANY",
+    buttonLink: "#"
+  },
+  {
+    id: 2,
+    title: "Retargeting Ads",
+    description: "A remarketing campaign displays advertisements to users who have previously visited your website. Remarketing is mainly the best PPC service because the user has already expressed interest in your company. It is frequently used to re-engage clients on the verge of leaving the sales to funnel or upsell or cross-sell more products to your current customers. When running a remarketing campaign with Google Adverts, picture ads are frequently displayed to visitors as they explore Google Display Network websites. To remarket to users, we here employ image or video advertising.",
+    buttonText: "ABOUT COMPANY",
+    buttonLink: "#"
+  }
+];
+
 const faqsData = [
   {
     question: "Why aren't my PPC advertisements at the top of the SERP?",
@@ -285,7 +302,13 @@ export default function PpcManagementServices() {
         </div>
       </section>
 
-      <ConsultancySlider />
+      <ConsultancySlider 
+        title="Why Would You Seek PPC Management Services?" 
+        subtitle="Without leveraging expert PPC management services, you might miss key opportunities to optimize your ad spend, increase traffic, and maximize ROI."
+        slides={slides} 
+        imageSrc="/images/services/parallax-bg8.jpg"
+        imageAlt="PPC Management Services"
+      />
 
       <section className="bg-[#c7010c] py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
