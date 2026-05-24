@@ -70,10 +70,11 @@ const servicesData = [
   {
     title: "AMAZON MARKETING",
     links: [
-      { name: "Amazon Consulting", href: "/amazon-consulting", icon: <FaCommentAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Amazon Marketing", href: "/amazon-marketing-services", icon: <FaCommentAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Amazon Consulting", href: "/amazon-consulting-services", icon: <FaCommentAlt className="text-gray-400 mt-1 flex-shrink-0" /> },
       { name: "Amazon FBA Consulting", href: "/amazon-fba-consulting-services", icon: <FaUser className="text-gray-400 mt-1 flex-shrink-0" /> },
       { name: "Amazon Seo Consultant", href: "/amazon-seo-consultant", icon: <FaSearch className="text-gray-400 mt-1 flex-shrink-0" /> },
-      { name: "Amazon Ad Management", href: "/amazon-ad-management", icon: <FaAd className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Amazon Ad Management", href: "/amazon-advertising-management", icon: <FaAd className="text-gray-400 mt-1 flex-shrink-0" /> },
     ]
   },
   {
