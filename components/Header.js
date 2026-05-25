@@ -81,10 +81,10 @@ const servicesData = [
     title: "ECOMMERCE SOLUTIONS",
     links: [
       { name: "Ecommerce Web Development", href: "/ecommerce-web-development", icon: <FaShoppingCart className="text-gray-400 mt-1 flex-shrink-0" /> },
-      { name: "Magento Development", href: "/magento-development", icon: <FaShoppingCart className="text-gray-400 mt-1 flex-shrink-0" /> },
-      { name: "Shopify Development", href: "/shopify-development", icon: <FaShoppingCart className="text-gray-400 mt-1 flex-shrink-0" /> },
-      { name: "WooCommerce Development", href: "/woocommerce-development", icon: <FaShoppingCart className="text-gray-400 mt-1 flex-shrink-0" /> },
-      { name: "Wordpress Development", href: "/wordpress-development", icon: <FaWordpress className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Magento Development", href: "/magento-development-services", icon: <FaShoppingCart className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Shopify Development", href: "/shopify-development-services", icon: <FaShoppingCart className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "WooCommerce Development", href: "/woocommerce-development-company-in-toronto", icon: <FaShoppingCart className="text-gray-400 mt-1 flex-shrink-0" /> },
+      { name: "Wordpress Development", href: "/wordpress-development-agency", icon: <FaWordpress className="text-gray-400 mt-1 flex-shrink-0" /> },
     ]
   }
 ];
